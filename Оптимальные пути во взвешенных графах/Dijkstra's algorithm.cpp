@@ -1,0 +1,74 @@
+/*Условие:
+Дан ориентированный взвешенный граф.  
+Необходимо найти кратчайшее расстояние от одной заданной вершины до другой, 
+используя алгоритм Дейкстры.
+
+Входные данные:
+В первой строке содержатся три числа: N, S и F (1 <=N <=100, 1<=S, F<=N), 
+где N – количество вершин графа, S – начальная вершина, а F – конечная.  
+В следующих N строках вводится по N чисел, не превосходящих 100, – 
+матрица смежности графа, где -1 означает отсутствие ребра между вершинами, 
+а любое неотрицательное число – наличие ребра данного веса. 
+
+Выходные данные:
+Необходимо вывести единственное значение - искомое расстояние или -1, если 
+пути между указанными вершинами не существует.*/
+
+#include <iostream>
+#include <vector>
+#include <climits>
+using namespace std;
+
+int main() {
+    int numberOfGraphVertices, initialVertex, terminalVertex;
+    cin >> numberOfGraphVertices >> initialVertex >> terminalVertex;
+
+    vector<vector<int>> graph(numberOfGraphVertices,
+    vector<int>(numberOfGraphVertices)); 
+    vector<int> distances(numberOfGraphVertices, INT_MAX ); 
+    vector<bool> visitedVertices(numberOfGraphVertices, false); 
+
+    initialVertex--; 
+    terminalVertex--;
+
+    for(int i = 0; i < numberOfGraphVertices; i++) {
+        for(int j = 0; j < numberOfGraphVertices; j++) {
+            int weight;
+            cin >> weight;
+            if(weight == -1) graph[i][j] = INT_MAX ; 
+            else graph[i][j] = weight; 
+        }
+    }
+
+    distances[initialVertex] = 0;
+
+    for (int i = 0; i < numberOfGraphVertices; i++) {
+        int minIndex = -1;
+        for (int j = 0; j < numberOfGraphVertices; j++) {
+            if (!visitedVertices[j] && (minIndex == -1 ||
+            distances[j] < distances[minIndex])) {
+                minIndex = j;
+            }
+        }
+        if (distances[minIndex] == INT_MAX ){
+          break;
+        }  
+        
+        for (int j = 0; j < numberOfGraphVertices; j++) {
+            if (graph[minIndex][j] != INT_MAX ) {
+                int temp = distances[minIndex] + graph[minIndex][j];
+                
+                if (temp < distances[j]) {
+                    distances[j] = temp;
+                }
+            }
+        }
+
+        visitedVertices[minIndex] = true; 
+    }
+
+    if (distances[terminalVertex] == INT_MAX ) cout << -1 << endl;
+    else cout << distances[terminalVertex] << endl;
+
+    return 0;
+}
