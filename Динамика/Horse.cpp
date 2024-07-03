@@ -21,6 +21,24 @@
 Если конь не может добраться до правой нижней клетки доски, 
 то выведите «-». 
 
+Входные данные:
+1)
+3 3 
+5 0 0 
+0 1 2  
+1 0 1 
+
+2)
+4 4 
+5 2 1 0 
+1 0 0 0 
+2 1 3 0 
+0 0 1 7 
+
+Выходные данные:
+1) -
+2) 13
+
 ENG
 Condition:
 Given a chessboard of size n*m. On each square of this board there is a number
@@ -42,7 +60,25 @@ Output:
 A single value should be output to the output file - the largest
 the amount that the horse can collect.
 If the knight cannot reach the bottom right square of the board,
-then print "-".*/
+then print "-".
+
+Input data:
+1)
+3 3 
+5 0 0 
+0 1 2  
+1 0 1 
+
+2)
+4 4 
+5 2 1 0 
+1 0 0 0 
+2 1 3 0 
+0 0 1 7 
+
+Output:
+1) -
+2) 13                        */
 
 #include <iostream>
 #include <vector>

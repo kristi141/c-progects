@@ -15,6 +15,21 @@ w1, w2, ..., wk килограмм и ценностью p1, p2, ..., 
 В выходной файл выведите через пробел номера слитков, которые грабитель 
 должен взять
 
+Входные данные:
+1)
+2 10 
+100 80 
+10 9 
+
+2)
+5 100 
+1000 550 550 550 550
+80 50 50 50 50
+
+Выходные данные:
+1) 1
+2) 2 3
+
 ENG
 Condition:
 A robber who broke into a bank found masses of gold bars in the safe.
@@ -30,7 +45,22 @@ The next two lines contain two arrays - the value and weight of the bars.
 
 Output:
 In the output file, print the numbers of the ingots that the robber
-must take*/
+must take
+
+Input data:
+1)
+2 10 
+100 80 
+10 9 
+
+2)
+5 100 
+1000 550 550 550 550
+80 50 50 50 50
+
+Output:
+1) 1
+2) 2 3               */
 
 #include <iostream>
 #include <vector>

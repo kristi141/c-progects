@@ -14,6 +14,24 @@
 Так как количество способов может быть достаточно большим, выведите его по 
 модулю 10^9 + 7
 
+Входные данные:
+1)
+1 1
+2  
+
+2)
+3 4
+1 2 3 
+
+3)
+4 8
+1 3 5 7 
+
+Выходные данные:
+1) 0
+2) 4
+3) 6
+
 ENG
 Condition:
 You are given n coins, each of which has its own denomination.
@@ -28,7 +46,25 @@ Output:
 The first line of the output file should contain a single value -
 number of ways to obtain a given amount.
 Since the number of ways can be quite large, print it by
-module 10^9 + 7*/
+module 10^9 + 7
+
+Input data:
+1)
+1 1
+2  
+
+2)
+3 4
+1 2 3 
+
+3)
+4 8
+1 3 5 7 
+
+Output:
+1) 0
+2) 4
+3) 6                  */
 
 #include <iostream>
 #include <vector>

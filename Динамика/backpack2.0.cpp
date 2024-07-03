@@ -9,7 +9,6 @@ w1, w2, ..., wk килограмм и ценностью p1, p2, ..., 
 Входные данные:
 В первой строке входного файла содержатся два значения: n (1<=n<=1000) – 
 количество слитков и W – наибольшая масса, которую может унести грабитель. 
-
 Далее следует две строки: 
 В первой строке содержится n чисел - ценности слитков.
 Во второй строке содержится n чисел - веса слитков.
@@ -17,6 +16,21 @@ w1, w2, ..., wk килограмм и ценностью p1, p2, ..., 
 Выходные данные:
 В выходной файл должно быть выведено единственное значение – наибольшая 
 стоимость всех слитков, которые должен вынести грабитель
+
+Входные данные:
+1)
+2 10
+100 80
+10 9
+
+2)
+5 100
+1000 550 550 550 550
+80 50 50 50 50
+
+Выходные данные:
+1) 100
+2) 1100
 
 ENG
 Condition:
@@ -29,14 +43,28 @@ as much gold as possible.
 Input data:
 The first line of the input file contains two values: n (1<=n<=1000) –
 the number of ingots and W - the largest mass that the robber can carry away.
-
 Next are two lines:
 The first line contains n numbers - the value of the bullion.
 The second line contains n numbers - the weight of the ingots.
 
 Output:
 A single value should be output to the output file - the largest
-the value of all the bullion that the robber must carry out*/
+the value of all the bullion that the robber must carry out
+
+Input data:
+1)
+2 10
+100 80
+10 9
+
+2)
+5 100
+1000 550 550 550 550
+80 50 50 50 50
+
+Output:
+1) 100
+2) 1100                */
 
 #include <iostream> 
 using namespace std;

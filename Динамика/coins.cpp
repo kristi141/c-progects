@@ -14,6 +14,18 @@
 минимальное количество монет, если же собрать необходимую сумму невозможно, 
 то следует вывести -1. 
 
+Входные данные:
+1)
+0 648 
+
+2)
+9 64 
+77 78 7 0 52 93 33 24 44 
+
+Выходные данные:
+1) -1
+2) 3
+
 ENG
 Condition:
 Given n different denominations of coins, each denomination has its own denomination.
@@ -28,7 +40,19 @@ and then the denomination of each denomination.
 Output:
 The output file should contain a single value -
 minimum number of coins, but if it is impossible to collect the required amount,
-then you should output -1.*/
+then you should output -1.
+
+Input data:
+1)
+0 648 
+
+2)
+9 64 
+77 78 7 0 52 93 33 24 44 
+
+Output:
+1) -1
+2) 3                             */
 
 #include <iostream>
 #include <vector>

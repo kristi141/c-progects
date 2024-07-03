@@ -15,6 +15,19 @@
 минимальная разница между суммой элементов первого подмножества и 
 суммой элементов второго подмножества.
 
+Входные данные:
+1)
+8 
+67 37 86 7 96 77 81 87 
+
+2)
+5 
+10 20 15 5 25 
+
+Выходные данные:
+1) 0
+2) 5
+
 ENG
 Condition:
 Given a set S of natural numbers, consisting of n elements.
@@ -30,7 +43,20 @@ a bunch of.
 Output:
 The output file should contain a single value -
 the minimum difference between the sum of the elements of the first subset and
-the sum of the elements of the second subset.*/
+the sum of the elements of the second subset.
+
+Input data:
+1)
+8 
+67 37 86 7 96 77 81 87 
+
+2)
+5 
+10 20 15 5 25 
+
+Output:
+1) 0
+2) 5                              */
 
 #include <iostream>
 #include <vector>

@@ -11,6 +11,19 @@
 В выходной файл должно быть выведено единственное слово: «Yes», 
 если такое подмножество существует, и «No», если его не существует.
 
+Входные данные:
+1)
+4 56 
+56 4 39 21 
+
+2)
+7 1000000000 
+21 84 25 55 80 38 12 
+
+Выходные данные:
+1) Yes
+2) No
+
 ENG
 Condition:
 Given a set of natural numbers consisting of n elements and an integer value s.
@@ -22,7 +35,20 @@ the value of s, and then the set itself.
 
 Output:
 The output file should contain a single word: “Yes”
-if such a subset exists, and "No" if it does not exist.*/
+if such a subset exists, and "No" if it does not exist.
+
+Input data:
+1)
+4 56 
+56 4 39 21 
+
+2)
+7 1000000000 
+21 84 25 55 80 38 12 
+
+Output:
+1) Yes
+2) No                                 */
 
 #include <iostream>
 using namespace std;

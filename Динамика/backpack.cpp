@@ -15,6 +15,19 @@
 В выходной файл должно быть выведено единственное значение – 
 наибольшая стоимость всех слитков, которые должен вынести грабитель
 
+Входные данные:
+1)
+3 10 
+8 4 5
+
+2)
+5 10 
+8 2 1 4 3 
+
+Выходные данные:
+1) 9
+2) 10
+
 ENG
 Condition:
 A robber who broke into a bank found gold bars in the safe.
@@ -30,7 +43,20 @@ The next line contains the masses of the ingots (w1,w2, ...,wk).
 
 Output:
 The output file should contain a single value -
-the greatest value of all the bullion that the robber must carry out*/
+the greatest value of all the bullion that the robber must carry out
+
+Input data:
+1)
+3 10 
+8 4 5
+
+2)
+5 10 
+8 2 1 4 3 
+
+Output:
+1) 9
+2) 10      */
 
 #include <iostream>
 #include <vector>

@@ -21,6 +21,21 @@
 В первой строке входного файла должно быть выведено единственное значение – 
 наименьшую возможную стоимость маршрута черепашки.
 
+Входные данные:
+1)
+3 4 
+5 9 4 3 
+3 1 6 9 
+8 6 8 12 
+
+2)
+1 1
+1
+
+Выходные данные:
+1) 35
+2) 1
+
 ENG
 Condition:
 There is a turtle in the upper left corner of a rectangular clearing of size 
@@ -42,7 +57,22 @@ description of the clearing indicating for each cell the acid content on it
 
 Output:
 The first line of the input file should contain a single value -
-the lowest possible cost for the turtle's route.*/
+the lowest possible cost for the turtle's route.
+
+Input data:
+1)
+3 4 
+5 9 4 3 
+3 1 6 9 
+8 6 8 12 
+
+2)
+1 1
+1
+
+Output:
+1) 35
+2) 1             */
 
 #include <iostream>
 #include <algorithm>
