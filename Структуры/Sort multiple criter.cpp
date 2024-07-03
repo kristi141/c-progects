@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Юный программист написал свою первую тестирующую систему. Он так обрадовался 
 тому, что она скомпилировалась, что решил пригласить школьных друзей на свой 
 собственный контест. 
@@ -21,7 +22,33 @@
 
 Выходные данные:
 В выходной файл должны быть выведены n чисел — номера команд в отсортированном 
-порядке*/
+порядке
+
+ENG
+Condition:
+The young programmer wrote his first testing system. He was so happy
+that she was complied with, that she decided to invite her school friends to 
+her own contest.
+But at the end of the tour it turned out that the system does not know how to 
+sort teams into results table. Help a novice programmer implement this
+sorting.
+The teams are ordered according to the following rules:
+by the number of solved problems in descending order;
+if the number of solved problems is equal, the penalty time is ok
+increasing;
+all other things being equal - by team number in ascending order.
+The implementation must use data structures.
+
+Input data:
+The first line contains the natural number n (1≤n≤105) — the number of 
+commands, participating in the contest.
+The i-th of the next n lines contains the number of solved problems S (0≤S≤102) and
+penalty time T (0≤T≤105)
+commands numbered i.
+
+Output:
+The output file should contain n numbers - the numbers of commands in the 
+sorted ok*/
 
 #include <iostream>
 #include <vector>

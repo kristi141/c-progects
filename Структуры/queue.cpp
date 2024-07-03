@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 В цивилизованных странах на железнодорожном вокзале работают k касс, 
 однако очередь в них всего одна. Обслуживание происходит следующим образом. 
 Изначально, когда все кассы свободны, первые k человек из очереди подходят 
@@ -17,7 +18,29 @@ ti (0 ≤ ti ≤ 105), которое требуется для того, чт
 
 Выходные данные:
 В выходной файл должно быть выведено единственное значение - время, за 
-которое будет обслужена заданная очередь.*/
+которое будет обслужена заданная очередь.
+
+ENG
+Condition:
+In civilized countries, there are cash desks at the railway station,
+however, there is only one queue. Service occurs as follows.
+Initially, when all the cash registers are free, the first people in the 
+queue come up to the box office. The rest are waiting their turn. As soon as 
+anyone is served and the corresponding cash register becomes free, the next 
+person in line comes up to this cash register. This continues until
+all clients are served.
+Determine the time during which all customers will be served.
+
+Input data:
+The first line contains two integers: queue size n and number of cash 
+registers k(1 ≤ n ≤ 105, 1 ≤ k ≤ 104).
+The second line contains n natural numbers.The i-th number determines the time
+ti(0 ≤ ti ≤ 105), which is required to serve the i-th client
+from the queue.
+
+Output:
+A single value should be output to the output file - time, for
+which the given queue will be served.*/
 
 #include <iostream>
 #include <vector>

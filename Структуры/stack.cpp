@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дана строка, состоящая из различных видов скобок (круглых, квадратных, 
 фигурных и треугольных). 
 Необходимо проверить, является ли скобочное выражение правильным или нет.  
@@ -10,7 +11,22 @@
 
 Выходные данные:
 Выведите 1, если скобочная последовательность является правильной, и 0 в 
-противном случае.*/
+противном случае.
+
+ENG
+Condition:
+Given a string consisting of various types of brackets (round, square,
+curly and triangular).
+It is necessary to check whether the parenthesis expression is correct or not.
+The sequence is considered correct if each opening bracket
+matches a closing parenthesis of the same type.
+
+Input data:
+The input is a string containing a sequence of parentheses.
+
+Output:
+Print 1 if the bracket sequence is correct, and 0 if
+otherwise.*/
 
 #include <iostream>
 #include <string>

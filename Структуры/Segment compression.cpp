@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 На Новом проспекте для разгрузки было решено пустить два новых автобусных 
 маршрута на разных участках проспекта. Все остановки на проспекте 
 пронумерованы подряд натуральными числами. Известны начальные и конечные 
@@ -11,7 +12,23 @@
 
 Выходные данные:
 В выходной файл должно быть выведено единственное значение - искомое 
-количество остановок. */
+количество остановок. 
+
+ENG
+Condition:
+To relieve congestion, it was decided to launch two new buses on Novy Prospekt.
+routes on different sections of the avenue. All stops on the avenue
+numbered consecutively with natural numbers. Known start and end
+stops for each bus. Determine the number of stops at which
+You can change from one bus to another.
+
+Input data:
+The input is given four natural numbers - the initial and final numbers
+stops first of the first, then of the second bus. The numbers do not exceed 109.
+
+Output:
+The output file should contain a single value - the desired one
+number of stops.*/
 
 #include <iostream>
 using namespace std;
