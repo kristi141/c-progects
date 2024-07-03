@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дан взвешенный неориентированный граф с n вершинами. 
 Необходимо найти и построить минимальное остовное дерево, используя алгоритм 
 Краскала.
@@ -20,7 +21,32 @@ n-1 ребро.
 В первой строке входного файла должно быть выведено единственное значение – 
 длина минимального остовного дерева.
 Начиная со следующей строки необходимо вывести матрицу смежности минимального 
-остова.*/
+остова.
+
+ENG
+Condition:
+Given a weighted undirected graph with n vertices.
+It is necessary to find and build a minimum spanning tree using the algorithm
+Painted.
+Minimum spanning tree (minimum spanning tree) - a subtree of a given graph,
+which would connect all its vertices, and at the same time have the smallest possible
+weight (i.e. the sum of the weights of the edges). Any skeleton will necessarily contain
+n-1 edge.
+A subtree is a set of edges connecting all vertices, from any vertex
+you can get to any other in exactly one simple way.
+
+Input data:
+The first line of the input file contains two values ​​n - the number of vertices of the graph
+(1<=n<=100), m – number of edges of this graph (1<=m<=n*(n-1)).
+Next are m lines, each of which contains three numbers - a list of edges
+of this matrix (the first two numbers are the vertices between which there is an edge,
+the third number is the weight of this edge).
+
+Output:
+The first line of the input file should contain a single value -
+length of the minimum spanning tree.
+Starting from the next line, you need to print the adjacency matrix of the minimum
+skeleton*/
 
 #include <iostream>
 #include <vector>

@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дан взвешенный неориентированный граф с n вершинами. 
 Необходимо найти и построить минимальное остовное дерево, используя алгоритм 
 Прима.
@@ -18,7 +19,30 @@
 В первой строке входного файла должно быть выведено единственное значение – 
 длина минимального остовного дерева.
 Начиная со следующей строки необходимо вывести матрицу смежности минимального 
-остова.*/
+остова.
+
+ENG
+Condition:
+Given a weighted undirected graph with n vertices.
+It is necessary to find and build a minimum spanning tree using the algorithm
+Prima.
+Minimum spanning tree (minimum spanning tree) - a subtree of a given graph,
+which would connect all its vertices, and at the same time have the smallest
+possible weight (i.e. the sum of the weights of the edges). Any skeleton will 
+definitely be contain n-1 edges.
+A subtree is a set of edges connecting all vertices, from any
+one can reach any other peak in exactly one simple way.
+
+Input data:
+The first line of the input file contains the value n – the number of 
+vertices of the graph (1<=n<=100).
+The following is the adjacency matrix of this graph.
+
+Output:
+The first line of the input file should contain a single value -
+length of the minimum spanning tree.
+Starting from the next line, you need to print the adjacency matrix of the minimum
+skeleton*/
 
 #include <iostream>
 #include <vector>
