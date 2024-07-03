@@ -19,6 +19,23 @@
 или «Not found», если такого элемента в массиве нет.
 Значение для каждого нового запроса должно быть выведено в отдельной строке.
 
+Входные данные
+5
+7 7 9 9 9
+5
+7
+9
+4
+1
+9
+
+Выходные данные
+1 2
+3 5
+Not found
+Not found
+3 5
+
 Eng
 Condition:
 Given a sorted integer array consisting of n elements.
@@ -38,7 +55,24 @@ Output:
 For each request, two values ​​should be output to the output file −
 number of the first occurrence and number of the last occurrence of element k in the array
 or “Not found” if there is no such element in the array.
-The value for each new request should be printed on a separate line.*/
+The value for each new request should be printed on a separate line.
+
+Input data
+5
+7 7 9 9 9
+5
+7
+9
+4
+1
+9
+
+Output
+12
+3 5
+Not found
+Not found
+3 5             */
 
 #include <iostream>
 using namespace std;

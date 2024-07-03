@@ -20,6 +20,38 @@
 нет, то необходимо вывести - «Not found».
 Значение для каждого нового запроса должно быть выведено в отдельной строке.
 
+Входные данные
+10
+
+1 1 1 8 8 8 8 8 8 9
+
+6
+
+11
+
+8
+
+8
+
+8
+
+8
+
+1
+
+Выходные данные
+Not found
+
+6
+
+6
+
+6
+
+6
+
+3
+
 Eng
 Condition:
 Given a sorted integer array containing repeating elements
@@ -40,7 +72,39 @@ Output:
 For each request, the output file must contain a single
 value - the number of occurrences of number k in the array, if element k is in 
 the array no, then you need to display “Not found”.
-The value for each new request should be printed on a separate line*/
+The value for each new request should be printed on a separate line
+
+Input data:
+10
+
+1 1 1 8 8 8 8 8 8 9
+
+6
+
+11
+
+8
+
+8
+
+8
+
+8
+
+1
+
+Output:
+Not found
+
+6
+
+6
+
+6
+
+6
+
+3*/
 
 #include <iostream>
 using namespace std;

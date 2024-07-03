@@ -18,6 +18,30 @@
 значение - номер слова в массиве или -1, если такого слова нет.
 Значение для каждого нового запроса должно быть выведено в отдельной строке.
 
+Входные данные
+9
+
+BT EWC HSN IRDY QYUS TMQ U YOG ZE
+
+4
+
+ZE
+
+EWC
+
+АВС
+
+ZE
+
+Выходные данные
+9
+
+2
+
+-1
+
+9
+
 Eng
 Condition:
 Given an array sorted in lexicographic order, consisting of n words.
@@ -36,7 +60,31 @@ may be different or the same).
 Output:
 For each request, the output file must contain a single
 value is the number of the word in the array or -1 if there is no such word.
-The value for each new request should be printed on a separate line.*/
+The value for each new request should be printed on a separate line.
+
+nput data
+9
+
+BT EWC HSN IRDY QYUS TMQ U YOG ZE
+
+4
+
+ZE
+
+E.W.C.
+
+ABC
+
+ZE
+
+Output
+9
+
+2
+
+-1
+
+9       */
 
 #include <iostream>
 using namespace std;

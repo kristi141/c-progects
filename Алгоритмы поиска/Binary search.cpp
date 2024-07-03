@@ -21,6 +21,27 @@
 массиве нет.
 Значение для каждого нового запроса должно быть выведено в отдельной строке.
 
+Входные данные
+5
+2 3 5 7 9
+7
+7
+11
+7
+9
+5
+2
+8
+
+Выходные данные
+4
+-1
+4
+5
+3
+1
+-1
+
 Eng
 Condition:
 Given a sorted integer array consisting of n elements.
@@ -42,7 +63,28 @@ Output:
 For each request, the output file must contain a single
 value is the number of element k in the array or -1 if there is such an element in
 no array.
-The value for each new request should be printed on a separate line.*/
+The value for each new request should be printed on a separate line.
+
+Input data:
+5
+2 3 5 7 9
+7
+7
+11
+7
+9
+5
+2
+8
+
+Output:
+4
+-1
+4
+5
+3
+1
+-1          */
 
 #include <iostream>
 using namespace std;
