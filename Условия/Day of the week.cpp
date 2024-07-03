@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дано число.
 Необходимо вывести название дня недели на английском языке, 
 соответствующее данному числу.
@@ -7,7 +8,19 @@
 На вход даётся натуральное число, не превосходящее по модулю 7.
 
 Выходные данные:
-В выходной файл должно быть выведено соответствующее название дня недели.*/
+В выходной файл должно быть выведено соответствующее название дня недели.
+
+ENG
+Condition:
+A number is given.
+It is necessary to display the name of the day of the week in English,
+corresponding to this number.
+
+Input data:
+The input is a natural number not exceeding modulo 7.
+
+Output:
+The output file should contain the corresponding name of the day of the week.*/
 
 #include<iostream>
 using namespace std;

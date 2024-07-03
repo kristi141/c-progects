@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Необходимо по заданному времени (часы и минуты в двенадцатичасовом формате) 
 найти угол между часовой и минутной стрелкой на аналоговых часах 
 с двенадцатичасовым циферблатом.
@@ -9,7 +10,21 @@
 
 Выходные данные:
 В выходной файл необходимо вывести единственное значение – 
-угол между часовой и минутной стрелкой, выраженный в градусах.*/
+угол между часовой и минутной стрелкой, выраженный в градусах.
+
+ENG
+Condition:
+Required at a given time (hours and minutes in twelve-hour format)
+find the angle between the hour and minute hands on an analog clock
+with a twelve-hour dial.
+Note: The hour hand moves once every hour.
+
+Input data:
+Two numbers are given as input: hours H and minutes M (1 ≤ H ≤ 12, 0 ≤ M ≤ 59).
+
+Output:
+The only value you need to output to the output file is:
+the angle between the hour and minute hands, expressed in degrees.*/
 
 #include <iostream>
 #include <math.h>

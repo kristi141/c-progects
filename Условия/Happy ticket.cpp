@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дан номер билета.
 Необходимо определить является ли он “счастливым”.
 Примечание: “Счастливый” билет - билет у которого первые и 
@@ -9,7 +10,21 @@
 
 Выходные данные:
 В выходной файл должна быть выведена единица, если номер билета “счастливый”,
- и ноль, если нет.*/
+ и ноль, если нет.
+ 
+ ENG
+ Condition:
+The ticket number is given.
+It is necessary to determine whether he is “happy”.
+Note: A “lucky” ticket is a ticket that has the first and
+the last three digits give the same amount.
+
+Input data:
+The input is a six-digit natural number with leading zeros.
+
+Output:
+One should be output to the output file if the ticket number is “lucky”,
+ and zero if not.*/
 
  #include<iostream>
 using namespace std;

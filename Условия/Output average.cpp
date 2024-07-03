@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Даны три числа.
 Необходимо найти и вывести среднее из них по величине.
 
@@ -7,7 +8,19 @@
 
 Выходные данные:
 В выходной файл должно быть выведено единственное значение - 
-среднее по величине число.*/
+среднее по величине число.
+
+ENG
+Condition:
+Three numbers are given.
+It is necessary to find and derive the average of them in magnitude.
+
+Input data:
+The input is given three different natural numbers, modulo not exceeding 10^6.
+
+Output:
+A single value should be output to the output file -
+average number.*/
 
 #include <iostream>
 using namespace std;

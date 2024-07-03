@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дано уравнение:
 ax2 + bx + c = 0.
 Необходимо написать программу, которая по введённым целочисленным параметрам 
@@ -10,7 +11,22 @@ a,b,c решит это уравнение.
 Выходные данные:
 В выходной файл через пробел необходимо вывести количество корней 
 этого уравнения, после этого все корни этого уравнения в порядке неубывания, 
-если этого сделать нельзя, то вывести -1.*/
+если этого сделать нельзя, то вывести -1.
+
+ENG
+Condition:
+Given the equation:
+ax2 + bx + c = 0.
+It is necessary to write a program that, based on the entered integer parameters
+a,b,c will solve this equation.
+
+Input data:
+Three integers are given as input - a, b, c, modulo not exceeding 1000.
+
+Output:
+The number of roots must be printed in the output file separated by spaces.
+this equation, after that all the roots of this equation in non-decreasing order,
+if this cannot be done, then output -1.*/
 
 #include <iostream>
 #include <cmath>

@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Даны три числа.
 Необходимо вывести их в порядке возрастания.
 
@@ -7,7 +8,19 @@
 
 Выходные данные:
 В выходной файл должны быть выведены эти числа, 
-расположенные в порядке возрастания.*/
+расположенные в порядке возрастания.
+
+ENG
+Condition:
+Three numbers are given.
+It is necessary to display them in ascending order.
+
+Input data:
+The input is given three different natural numbers, not exceeding modulo 10^6.
+
+Output:
+These numbers should be output to the output file,
+arranged in ascending order.*/
 
 #include <iostream>
 using namespace std;

@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дано трёхзначное число.
 Необходимо определить являются ли все цифры в нём различными.
 
@@ -7,7 +8,19 @@
 
 Выходные данные:
 В выходной файл должна быть выведена единица, 
-если все цифры в числе различны, и ноль в противном случае.*/
+если все цифры в числе различны, и ноль в противном случае.
+
+ENG
+Condition:
+A three-digit number is given.
+It is necessary to determine whether all the numbers in it are different.
+
+Input data:
+The input is a natural three-digit number.
+
+Output:
+One should be output to the output file,
+if all digits in a number are different, and zero otherwise.*/
 
 #include<iostream>
 using namespace std;
