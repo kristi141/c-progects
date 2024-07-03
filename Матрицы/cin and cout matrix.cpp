@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Введите и выведите матрицу.
 
 Входные данные:
@@ -8,7 +9,20 @@
 матрицы (1 ≤matrixi,j ≤109).
 
 Выходные данные:
-Выведите n строк по m чисел – значения матрицы.*/
+Выведите n строк по m чисел – значения матрицы.
+
+ENG
+Condition:
+Input and output matrix.
+
+Input data:
+The first line contains natural numbers n and m (1 ≤ n,m≤103 ) –
+number of rows and columns of the matrix.
+The next n lines contain m numbers - cell values
+matrices (1 ≤matrixi,j ≤109).
+
+Output:
+Print n lines of m numbers - the values ​​of the matrix.*/
 
 #include <iostream>
 using namespace std;

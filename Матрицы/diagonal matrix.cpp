@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дано число – размер квадратной матрицы. Обойдите матрицу по диагонали и 
 заполните последовательными натуральными числами.
 
@@ -7,7 +8,19 @@
 
 Выходные данные:
 Выведите матрицу заполнив её начиная с левого верхнего угла, параллельно 
-побочной диагонали числами с 1 по n*n.*/
+побочной диагонали числами с 1 по n*n.
+
+ENG
+Condition:
+The given number is the size of the square matrix. Walk around the matrix 
+diagonally and fill in with consecutive natural numbers.
+
+Input data:
+The input is a natural number n – the size of the matrix (n ≤ 100).
+
+Output:
+Output the matrix by filling it starting from the upper left corner, parallel
+side diagonal with numbers from 1 to n*n.*/
 
 #include <iostream>
 using namespace std;

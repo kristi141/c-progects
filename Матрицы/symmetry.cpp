@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дана целочисленная матрица. Проверьте, обладает ли она вертикальной или 
 горизонтальной симметричностью.
 
@@ -10,7 +11,22 @@
 
 Выходные данные:
 Выведите “Yes”, если матрица обладает вертикальной (a[i][j] = a[n-i][j]) или 
-горизонтальной (a[i][j] = a[i][m-j]) симметричностью, иначе – выведите “No”.*/
+горизонтальной (a[i][j] = a[i][m-j]) симметричностью, иначе – выведите “No”.
+
+ENG
+Condition:
+An integer matrix is ​​given. Check if it has vertical or
+horizontal symmetry.
+
+Input data:
+The first line contains natural numbers n and m (1 ≤ n,m≤103 ) –
+number of rows and columns of the matrix.
+The next n lines contain m numbers - cell values
+matrices (1 ≤matrixi,j ≤109).
+
+Output:
+Print “Yes” if the matrix is ​​vertical (a[i][j] = a[n-i][j]) or
+horizontal (a[i][j] = a[i][m-j]) symmetry, otherwise print “No”.*/
 
 #include <iostream>
 using namespace std;

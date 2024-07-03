@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дана матрица. Необходимо начиная с левой верхней ячейки обойти её внутрь 
 спиралью по часовой стрелке и вывести числа, находящиеся в этих ячейках.
 
@@ -8,7 +9,21 @@
 
 Выходные данные:
 В выходной файл необходимо вывести через пробел числа, которые встречаются 
-в результате обхода матрицы внутрь по часовой стрелке.*/
+в результате обхода матрицы внутрь по часовой стрелке.
+
+ENG
+Condition:
+Given a matrix. It is necessary, starting from the upper left cell, to go 
+around it inward spiral clockwise and print the numbers in these cells.
+
+Input data:
+The first line contains two numbers N and M – the size of the matrix 
+(1 ≤ N, M ≤ 104).
+Next, N lines contain M numbers each - matrix cells.
+
+Output:
+The output file must contain the numbers that appear, separated by spaces.
+as a result of traversing the matrix inward clockwise.*/
 
 #include <iostream>
 using namespace std;

@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дана матрица. Найдите её наименьший элемент.
 
 Входные данные:
@@ -6,7 +7,18 @@
  Далее в n строках даётся по m целых чисел – элементы матрицы.
 
 Выходные данные:
-Выведите наименьший элемент матрицы.*/
+Выведите наименьший элемент матрицы.
+
+ENG
+Condition:
+Given a matrix. Find its smallest element.
+
+Input data:
+The input is given two natural numbers n and m (n ≤ 1000, m ≤ 100).
+ Next, n lines contain m integers each - the elements of the matrix.
+
+Output:
+Print the smallest element of the matrix.*/
 
 #include <iostream>
 using namespace std;
