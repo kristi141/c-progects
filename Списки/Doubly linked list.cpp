@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дана последовательность цифр.
 Необходимо составить двусвязный список из данной последовательности и 
 вывести его на экран.
@@ -8,7 +9,20 @@
 На вход дается последовательность цифр.
 
 Выходные данные:
-В выходной файл должен быть выведен двусвязный список чисел*/
+В выходной файл должен быть выведен двусвязный список чисел
+
+ENG
+Condition:
+A sequence of numbers is given.
+You need to create a doubly linked list from this sequence and
+display it on the screen.
+The solution must use doubly linked lists.
+
+Input data:
+The input is a sequence of numbers.
+
+Output:
+The output file should contain a doubly linked list of numbers*/
 
 #include <iostream>
 using namespace std;

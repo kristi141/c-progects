@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дан список чисел и некоторое значение x.
 Необходимо вставить данный элемент x на k-ое место в данном списке.
 В решении необходимо использовать связные списки.
@@ -8,7 +9,20 @@
 куда его нужно вставить.
 
 Выходные данные:
-В выходной файл должен быть выведен список чисел.*/
+В выходной файл должен быть выведен список чисел.
+
+EN
+Condition:
+Given a list of numbers and some value x.
+It is necessary to insert this element x into the k-th place in this list.
+The solution must use linked lists.
+
+Input data:
+The input file is given a list of numbers, then comes the element to be 
+inserted and the number, where should it be inserted.
+
+Output:
+The output file should contain a list of numbers.*/
 
 #include <iostream>
 #include <vector>

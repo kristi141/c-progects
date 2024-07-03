@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дан список чисел и некоторые значения x и y из данного списка.
 Необходимо поменять элементы x и y местами. 
 В решении необходимо использовать связные списки.
@@ -8,7 +9,20 @@
 местами.
 
 Выходные данные:
-В выходной файл должен быть выведен список чисел.*/
+В выходной файл должен быть выведен список чисел.
+
+ENG
+Condition:
+Given a list of numbers and some x and y values ​​from the given list.
+It is necessary to swap the elements x and y.
+The solution must use linked lists.
+
+Input data:
+The input file contains a list of numbers, and then the elements that need 
+to be changed in some places.
+
+Output:
+The output file should contain a list of numbers.*/
 
 #include <iostream>
 #include <vector>

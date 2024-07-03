@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дан список чисел и некоторое значение x.
 Необходимо удалить элемент, с данным значением x, из данного списка. 
 В решении необходимо использовать связные списки.
@@ -8,7 +9,20 @@
 из списка.
 
 Выходные данные:
-В выходной файл должен быть выведен список чисел.*/
+В выходной файл должен быть выведен список чисел.
+
+ENG
+Condition:
+Given a list of numbers and some value x.
+It is necessary to remove the element with the given value x from the given list.
+The solution must use linked lists.
+
+Input data:
+The input file is given a list of numbers and then the element that needs 
+to be removed from the list.
+
+Output:
+The output file should contain a list of numbers.*/
 
 #include <iostream>
 #include <iomanip>

@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дана последовательность чисел.
 Необходимо составить список из данной последовательности и вывести его 
 на экран.
@@ -8,7 +9,20 @@
 На вход дается последовательность чисел.
 
 Выходные данные:
-В выходной файл должен быть выведен список чисел.*/
+В выходной файл должен быть выведен список чисел.
+
+ENG
+Condition:
+Given a sequence of numbers.
+It is necessary to create a list from this sequence and display it
+to the screen.
+The solution must use linked lists.
+
+Input data:
+The input is a sequence of numbers.
+
+Output:
+The output file should contain a list of numbers.*/
 
 #include <iostream>
 using namespace std;
