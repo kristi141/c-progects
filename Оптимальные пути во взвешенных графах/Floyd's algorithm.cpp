@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дан ориентированный взвешенный граф, рёбрам которого приписаны некоторые 
 неотрицательные веса (длины).  
 Необходимо найти длину кратчайшего пути из вершины s в вершину t, используя 
@@ -14,7 +15,27 @@
 
 Выходные данные:
 Необходимо вывести единственное значение - минимальную длину пути. Если пути 
-не существует, выведите -1*/
+не существует, выведите -1
+
+ENG
+Condition:
+Given a directed weighted graph whose edges are assigned certain
+non-negative weights (lengths).
+It is necessary to find the length of the shortest path from vertex s to 
+vertex t using Floyd's algorithm.
+
+Input data:
+The first line contains three values: N - the number of vertices in the 
+graph (N<=50), numbers topsit.
+Next comes the adjacency matrix of the graph, that is, N rows, in each of 
+which written N numbers.The j-th number in the i-th row of the adjacency 
+matrix specifies the length edge leading from the i-th vertex to the j-th. 
+Lengths can take any value from 0 to 1000000, the number -1 means the 
+absence of a corresponding edge.
+
+Output:
+The only value that needs to be output is the minimum path length. If the path
+does not exist, print -1*/
 
 #include <iostream>
 #include <algorithm>

@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 В богатом районе города P стоит n-этажный небоскреб. Все бы ничего, но лифты 
 этого здания строили известные герои Равшан и Джамшут, именно поэтому они 
 ездят очень странно. Грузчикам нужно перенести очень тяжелую скульптуру с 
@@ -24,7 +25,37 @@ c этажа на этаж (лифты перемещается в обе сто
 
 Выходные данные:
 В выходной файл должно быть выведено единственное значение – наименьшее 
-количество слов, которые произнесут грузчики*/
+количество слов, которые произнесут грузчики
+
+ENG
+Condition:
+In a wealthy area of ​​city P there is an n-story skyscraper. Everything 
+would be fine, but the elevators This building was built by the famous heroes 
+Ravshan and Dzhamshut, which is why they they drive very strangely. Loaders 
+need to move a very heavy sculpture from one floor to another. When raising 
+a statue to a certain floor from the mouth Not very nice words come out from 
+the loaders. The residents of this house are very cultured people who are 
+not accustomed to such expressions. Help movers to move the statue so that 
+the number of ugly words uttered there were a minimum of words.
+
+Input data:
+The first line of the input file contains three values: n – number of floors 
+in skyscraper (1<=n<=1000), m – number of elevators in this skyscraper
+(1<=m<=100) and с – the number of words that the loaders pronounce while 
+passing one floor by stairs.
+The second line of the input file contains two values: the number of the 
+floor from which the statue needs to be moved, and the floor number to which 
+the statue needs to be delivered. The next m lines contain three values: the 
+number of the floor from which the elevator comes,the number of the floor to 
+which this elevator goes, as well as the cost of moving to this elevator 
+(the number of words that the loaders will say while they are driving
+on the elevator).
+It is known that the elevator does not stop between the indicated floors, 
+but travels strictly from floor to floor (elevators move in both directions).
+
+Output:
+The output file should contain a single value – the smallest one
+number of words the movers will say*/
 
 #include <iostream>
 #include <cmath>

@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дан ориентированный граф, в котором могут быть кратные ребра и петли. 
 Каждое ребро имеет вес, выражающийся целым числом (возможно, отрицательным). 
 Гарантируется, что циклы отрицательного веса отсутствуют. 
@@ -15,7 +16,29 @@
 Программа должна вывести N чисел – расстояния от вершины номер 1 до всех 
 вершин графа.  
 Если пути до соответствующей вершины не существует, вместо длины пути 
-выведите – «No».*/
+выведите – «No».
+
+ENG
+Condition:
+Given a directed graph that can have multiple edges and loops.
+Each edge has a weight that is an integer (possibly negative).
+It is guaranteed that there are no negative weight cycles.
+It is necessary to find the lengths of the shortest paths from vertex number 
+1 to all the others.
+The solution must use the Bellman-Ford algorithm.
+
+Input data:
+The program first receives the number N (1<=N<=100) – the number of vertices 
+of the graph and numberM(0<=M<=10000) – number of edges.
+The following lines contain M triplets of numbers describing the edges: the 
+beginning of the edge, edge end and weight 
+(weight is an integer from -100 to 100).
+
+Output:
+The program should output N numbers – the distances from vertex number 1 to all
+vertices of the graph.
+If there is no path to the corresponding vertex, instead of the path length
+output – “No”.*/
 
 #include <iostream>
 #include <vector>
