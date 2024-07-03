@@ -12,6 +12,19 @@
 Выходные данные:
 Необходимо вывести матрицу смежности заданного графа.
 
+Входные данные:
+5 3 
+1 3 
+2 3 
+2 5 
+
+Выходные данные:
+0 0 1 0 0 
+0 0 1 0 1 
+1 1 0 0 0 
+0 0 0 0 0 
+0 1 0 0 0 
+
 ENG
 Condition:
 Some undirected graph is given a list of edges, print it
@@ -24,7 +37,20 @@ Then follows m pairs of numbers. These numbers indicate the numbers of
 vertices, between with which the edge exists.
 
 Output:
-It is necessary to display the adjacency matrix of a given graph.*/
+It is necessary to display the adjacency matrix of a given graph.
+
+Input data:
+5 3 
+1 3 
+2 3 
+2 5 
+
+Output:
+0 0 1 0 0 
+0 0 1 0 1 
+1 1 0 0 0 
+0 0 0 0 0 
+0 1 0 0 0                   */
 
 #include <iostream>
 #include <vector>

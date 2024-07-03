@@ -12,6 +12,19 @@
 Выходные данные:
 Необходимо вывести список ребер заданного графа.
 
+Входные данные:
+5
+0 0 1 0 0
+0 0 1 0 1
+1 1 0 0 0
+0 0 0 0 0
+0 1 0 0 0
+
+Выходные данные:
+1 3
+2 3
+2 5
+
 ENG
 Condition:
 A certain graph is given by an adjacency matrix; print its representation in 
@@ -24,7 +37,20 @@ each of which is 0 or 1,- adjacency matrix of a given graph (1 means the
 presence of an edge, and 0 – its absence).
 
 Output:
-It is necessary to display a list of edges of a given graph.*/
+It is necessary to display a list of edges of a given graph.
+
+Input data:
+5
+0 0 1 0 0
+0 0 1 0 1
+1 1 0 0 0
+0 0 0 0 0
+0 1 0 0 0
+
+Output:
+1 3
+2 3
+2 5                 */
 
 #include <iostream>
 using namespace std;

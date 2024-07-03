@@ -20,9 +20,20 @@
 В выходной файл должно быть выведено четыре значения (каждое значение должно 
 быть выведено в новой строке): если граф обладает данным свойством выведите 1, 
 в противном случае выведите -1.  
-
 Первая строка – свойство определенности, вторая строка – свойство взвешенности, 
 третья строка – свойство транзитивности, четвертая строка – свойство полноты.
+
+Входные данные:
+3
+0 1 1
+1 0 1
+1 1 0
+
+Выходные данные:
+-1
+-1
+1
+1
 
 ENG
 Condition:
@@ -47,10 +58,21 @@ Output:
 Four values ​​must be output to the output file (each value must
 be printed on a new line): if the graph has this property print 1,
 otherwise print -1.
-
 The first line is the property of certainty, the second line is the property 
 of balance, the third line is the transitivity property, the fourth line is 
-the completeness property.*/
+the completeness property.
+
+Input data:
+3
+0 1 1
+1 0 1
+1 1 0
+
+Output:
+-1
+-1
+1
+1                  */
 
 #include <iostream> 
 using namespace std; 

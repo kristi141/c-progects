@@ -14,6 +14,23 @@
 где «i» – номер вершины, а «a b c» -номера смежных вершин через пробел. 
 Номера вершин и смежных вершин должны идти в порядке возрастания
 
+Входные данные:
+5 7
+1 2
+1 3
+1 4
+2 4
+2 5
+3 4
+4 5
+
+Выходные данные:
+1: 2 3 4
+2: 1 4 5
+3: 1 4
+4: 1 2 3 5
+5: 2 4
+
 ENG
 Condition:
 Some graph is given a list of edges, output its representation as a list
@@ -29,7 +46,24 @@ Output:
 It is necessary to display a list of adjacencies of a given graph in the 
 format: “i: a b c”, where “i” is the number of the vertex, and “a b c” are 
 the numbers of adjacent vertices separated by a space.
-The numbers of vertices and adjacent vertices must be in ascending order*/
+The numbers of vertices and adjacent vertices must be in ascending order
+
+Input data:
+5 7
+1 2
+1 3
+1 4
+2 4
+2 5
+3 4
+4 5
+
+Output:
+1: 2 3 4
+2: 1 4 5
+3: 1 4
+4: 1 2 3 5
+5: 2 4                */
 
 #include <iostream>
 #include <vector>

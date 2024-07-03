@@ -13,6 +13,21 @@
 Необходимо вывести список смежности заданного графа в формате: «i: a b c», 
 где «i» – номер вершины, а «a b c» -номера смежных вершин через пробел
 
+Входные данные:
+5
+0 1 1 1 0
+1 0 0 1 1
+1 0 0 1 0
+1 1 1 0 1
+0 1 0 1 0
+
+Выходные данные:
+1: 2 3 4
+2: 1 4 5
+3: 1 4
+4: 1 2 3 5
+5: 2 4
+
 ENG
 Condition:
 A certain graph is given by an adjacency matrix; print its representation in 
@@ -27,7 +42,22 @@ each of which is equal to 0 or 1 is the adjacency matrix of a given graph
 Output:
 It is necessary to display a list of adjacencies of a given graph in the 
 format: “i: a b c”, where “i” is the number of the vertex, and “a b c” are 
-the numbers of adjacent vertices separated by a space*/
+the numbers of adjacent vertices separated by a space
+
+Input data:
+5
+0 1 1 1 0
+1 0 0 1 1
+1 0 0 1 0
+1 1 1 0 1
+0 1 0 1 0
+
+Output:
+1: 2 3 4
+2: 1 4 5
+3: 1 4
+4: 1 2 3 5
+5: 2 4                  */
 
 #include <iostream>
 #include <vector>
