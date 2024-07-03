@@ -12,6 +12,14 @@
 треугольника соответствующего входным данным с точностью не менее 6 знаков 
 после запятой.
 
+Входные данные:
+3 4 5
+
+Выходные данные:
+0.000000 0.000000
+3.000000 0.000000
+0.000000 4.000000
+
 ENG
 Condition:
 Construct a triangle with three sides.
@@ -24,7 +32,15 @@ satisfying the triangle inequality.
 Output:
 Print 6 real numbers - the coordinates of the vertices of some
 triangle corresponding to the input data with an accuracy of at least 
-6 digits after the comma.*/
+6 digits after the comma.
+
+Input data:
+3 4 5
+
+Output:
+0.000000 0.000000
+3.000000 0.000000
+0.000000 4.000000           */
 
 #include <iostream>
 #include <cmath>

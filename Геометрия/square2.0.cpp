@@ -10,6 +10,14 @@
 Выходные данные:
 Выведите 4 числа — координаты двух оставшихся вершин квадрата.
 
+Входные данные:
+0 0
+2 1
+
+Выходные данные:
+0.5 1.5
+1.5 -0.5
+
 ENG
 Condition:
 Construct a square using two points - opposite vertices of the square.

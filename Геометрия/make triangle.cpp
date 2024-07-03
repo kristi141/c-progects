@@ -13,6 +13,14 @@
 треугольника соответствующего входным данным с точностью не менее 6 
 знаков после запятой.
 
+Входные данные:
+10 5 60
+
+Выходные данные:
+0.000000 0.000000
+10.000000 0.000000
+2.5000000000 4.3301270189
+
 ENG
 Condition:
 Construct a triangle using two sides and the angle between them.
@@ -26,7 +34,15 @@ less than 180.
 Output:
 Print 6 real numbers - the coordinates of the vertices of some
 triangle corresponding to the input data with an accuracy of at least 6
-decimal places.*/
+decimal places.
+
+Input data:
+10 5 60
+
+Output:
+0.000000 0.000000
+10.000000 0.000000
+2.5000000000 4.3301270189       */
 
 #include <iostream>
 #include <cmath>

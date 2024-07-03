@@ -12,6 +12,14 @@
 треугольника соответствующего входным данным с точностью не менее 6 знаков 
 после запятой.
 
+Входные данные:
+5 60 30
+
+Выходные данные:
+0.000000 0.000000
+10.000000 0.000000
+2.500000 4.3301270189
+
 ENG
 Condition:
 Construct a triangle using two angles and a median drawn from the third angle.
@@ -24,7 +32,15 @@ exceeding 104, the angles are positive numbers, the sum of which is less than 18
 Output:
 Print 6 real numbers - the coordinates of the vertices of some
 triangle corresponding to the input data with an accuracy of at least 6 digits
-after the comma.*/
+after the comma.
+
+Input data:
+5 60 30
+
+Output:
+0.000000 0.000000
+10.000000 0.000000
+2.500000 4.3301270189               */
 
 #include <iostream>
 #include <math.h>

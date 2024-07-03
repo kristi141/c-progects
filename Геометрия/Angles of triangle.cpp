@@ -11,6 +11,14 @@
 Выведите единственное число - величину самого большого угла треугольника 
 в градусах с точностью не меньше 6 знаков после запятой
 
+Входные данные:
+0 0
+3 0
+0 4 
+
+Выходные данные:
+90.000000
+
 ENG
 Condition:
 Given a triangle. Determine the size of the largest of its angles.
@@ -22,7 +30,15 @@ Coordinates are a pair of integers not exceeding 10^4 in modulo.
 
 Output:
 Print a single number - the value of the largest angle of the triangle
-in degrees with an accuracy of at least 6 decimal places*/
+in degrees with an accuracy of at least 6 decimal places
+
+Input data:
+0 0
+3 0
+0 4 
+
+Output:
+90.000000*/
 
 #include <iostream>
 #include <cmath>

@@ -10,6 +10,13 @@
 Выходные данные:
 Выведите 4 числа — координаты двух оставшихся вершин квадрата.
 
+Входные данные:
+1 1
+2 4
+
+Выходные данные:
+-1 5 -2 2
+
 ENG
 Condition:
 Construct a square using two points - adjacent vertices of the square.
@@ -20,7 +27,14 @@ The program receives as input the coordinates of two adjacent vertices of a squa
 Coordinates are a pair of integers not exceeding 104 in absolute value.
 
 Output:
-Print 4 numbers — the coordinates of the two remaining vertices of the square.*/
+Print 4 numbers — the coordinates of the two remaining vertices of the square.
+
+Input data:
+1 1
+2 4
+
+Output:
+-1 5 -2 2             */
 
 #include <iostream>
 #include <cmath>

@@ -11,6 +11,14 @@
 Выведите два числа — координаты точки пересечения высот данного треугольника 
 с точностью не меньше 6 знаков после запятой
 
+Входные данные:
+0 0
+3 0
+0 4 
+
+Выходные данные:
+0.000000 0.000000
+
 ENG
 Condition:
 Find the point of intersection of the altitudes of a given triangle
@@ -22,7 +30,15 @@ Coordinates are a pair of integers not exceeding 104 in modulo.
 
 Output:
 Print two numbers - the coordinates of the point of intersection of the 
-heights of this triangle with an accuracy of at least 6 decimal places*/
+heights of this triangle with an accuracy of at least 6 decimal places
+
+Input data:
+0 0
+3 0
+0 4 
+
+Output:
+0.000000 0.000000           */
 
 #include <iostream>
 #include <cmath>
