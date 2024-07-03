@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Шхуна "Испаньола" оказалась в руках пиратов. Джим хочет захватить шхуну и 
 отвести ее в укромную бухту.  Он без разрешения покидает форт, отыскивает 
 принадлежащую Бену Ганну лодку и отправляется на "Испаньолу".  Джим знает, 
@@ -38,7 +39,52 @@
 
 Выходные данные:
 В выходной файл должно быть выведено слово "Yes", если пройти из левого 
-верхнего угла в правый нижний можно, и "No" в противном случае.*/
+верхнего угла в правый нижний можно, и "No" в противном случае.
+
+ENG
+Condition:
+The schooner Hispaniola ended up in the hands of pirates. Jim wants to capture 
+the schooner and take her to a secluded cove. He leaves the fort without 
+permission, looks for a boat belonging to Ben Gunn and goes to the Hispaniola. 
+Jim knows that there were only two pirates left on the schooner, who had 
+probably already take advantage of the rum reserves, fight and, as Jim is 
+almost sure, are no longer in able to resist.
+All this, of course, is wonderful, but you still have to be able to swim to 
+the schooner. Ben Gunn's little homemade boat. The bay, where in one corner 
+stands "Hispaniola", and in the opposite corner Ben Gunn's boat is hidden, 
+in abundance contains rocks and reefs. Therefore, sail the bay from end to 
+end on a fragile boat - a very difficult task. Luckily, Ben Gunn provided Jim 
+with a map bays. On a piece of paper Ben Gunn drew a square - a plan of the 
+bay. Ben's plan drew it into small squares, in each of which he wrote down 
+the whole a number representing a description of possible travel directions 
+from this cells. The paper on which the plan of the bay is drawn is small, 
+so the description directions of movement in each cell are presented in 
+a compact form.
+Ben stated:
+1 - upward direction
+2 - downward direction
+4 - direction to the right
+8 - left direction
+Then the number describing the cell of the bay plan is the sum of the numbers 
+of those directions in which you can safely swim from this cage. For example, 
+the number 6 is a cell, from which you can go down and to the right, but not 
+in other directions. The bay is surrounded by coastline on three sides, and 
+on the fourth side there is a strong current that will carry the fragile boat 
+into the open sea. That's why Jim cannot go beyond the bay and must strictly 
+follow Ben Gunn's plan. Jim studies the plan and tries to determine whether 
+it is possible to sail from the point where it is located up to the point 
+where the schooner is located. On the plan this is the route from
+upper left to lower right. Help Jim solve this problem.
+
+Input data:
+The input file on the first line contains a single integer N - size
+sides of the square plan drawn by Ben Gunn (2<=N<=1000).
+Next, the file contains N lines of N integers separated by spaces -
+description of the plan cells.
+
+Output:
+The output file should contain the word "Yes" if passed from the left
+top corner to bottom right is possible, and "No" otherwise.*/
 
 #include <iostream>
 #include <vector>

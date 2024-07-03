@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дан неориентированный невзвешенный граф.
 Необходимо посчитать количество его компонентов связности и вывести их.
 
@@ -12,7 +13,24 @@
 В первой строке выходного файла выведите количество компонентов связности.
 Далее в каждой новой строке в порядке возрастания наименьшей вершины в 
 компоненте связности выведите размер компонента связности, а затем и сам 
-компонент связности.*/
+компонент связности.
+
+ENG
+Condition:
+Given an undirected unweighted graph.
+It is necessary to count the number of its connected components and output them.
+
+Input data:
+The input file contains the value N (1<=N<=100) – the number of vertices
+this graph.
+The following is the adjacency matrix of this graph, in which 0 means the absence
+edges between vertices, and 1 – its presence.
+
+Output:
+In the first line of the output file, print the number of connected components.
+Further in each new line in ascending order of the smallest vertex in
+connected component, output the size of the connected component, and then 
+print the size of the connected component connectivity component.*/
 
 #include <iostream>
 #include <vector>

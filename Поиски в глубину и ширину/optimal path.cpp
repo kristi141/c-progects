@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дан неориентированный граф.
 Необходимо найти оптимальный путь по числу переходов между двумя вершинами.
 
@@ -12,7 +13,26 @@
 Необходимо вывести оптимальный путь по числу переходов  (количество 
 переходов, которое необходимо сделать), а затем сам путь.
 Необходимо вывести путь (номера всех вершин в правильном порядке). Если пути 
-нет, нужно вывести -1.*/
+нет, нужно вывести -1.
+
+ENG
+Condition:
+Given an undirected graph.
+It is necessary to find the optimal path based on the number of transitions 
+between two vertices.
+
+Input data:
+The input file contains the following value: N (1<=N<=100) – the number of 
+graph vertices.
+The following is the adjacency matrix of this graph, in which 0 means the absence
+edges between vertices, and 1 – its presence.
+Next, the numbers of two vertices are specified - the initial and final ones.
+
+Output:
+It is necessary to derive the optimal path based on the number of transitions 
+(number transitions that need to be made), and then the path itself.
+It is necessary to print the path (the numbers of all vertices in the correct 
+order). If the path no, you need to output -1.*/
 
 #include <iostream>
 #include <vector>

@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дан неориентированный невзвешенный граф.
 Необходимо найти вершины, лежащие в одной компоненте связности с данной 
 вершиной (считая эту вершину).
@@ -13,7 +14,25 @@
 ребра между вершинами, а 1 – его наличие.
 
 Выходные данные:
-Выведите получившийся компонент связности*/
+Выведите получившийся компонент связности
+
+ENG
+Condition:
+Given an undirected unweighted graph.
+It is necessary to find vertices that lie in the same connected component with a given
+vertex (considering this vertex).
+The solution requires applying a depth-first search algorithm.
+
+Input data:
+The input file contains the value N (1<=N<=100) – the number of vertices
+this graph.
+The next line of the input file gives the number of the vertex for which it is necessary
+find all vertices lying with a given one in one connected component.
+The following is the adjacency matrix of this graph, in which 0 means the absence
+edges between vertices, and 1 – its presence.
+
+Output:
+Print the resulting connected component*/
 
 #include <iostream>
 #include <vector>
