@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Постройте треугольник по двум углам и медиане, проведенной из третьего угла.
 
 Входные данные:
@@ -9,7 +10,21 @@
 Выходные данные:
 Выведите 6 действительных чисел — координаты вершин какого-нибудь 
 треугольника соответствующего входным данным с точностью не менее 6 знаков 
-после запятой.*/
+после запятой.
+
+ENG
+Condition:
+Construct a triangle using two angles and a median drawn from the third angle.
+
+Input data:
+The program receives three real numbers as input: the length of the median and
+degree measures of two angles. The length of the median is a positive number, not
+exceeding 104, the angles are positive numbers, the sum of which is less than 180.
+
+Output:
+Print 6 real numbers - the coordinates of the vertices of some
+triangle corresponding to the input data with an accuracy of at least 6 digits
+after the comma.*/
 
 #include <iostream>
 #include <math.h>

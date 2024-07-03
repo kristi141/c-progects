@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Постройте треугольник по двум сторонам и углу между ними.
 
 Входные данные:
@@ -10,7 +11,22 @@
 Выходные данные:
 Выведите 6 действительных чисел — координаты вершин какого-нибудь 
 треугольника соответствующего входным данным с точностью не менее 6 
-знаков после запятой.*/
+знаков после запятой.
+
+ENG
+Condition:
+Construct a triangle using two sides and the angle between them.
+
+Input data:
+The program receives three real numbers as input - the lengths of two sides
+triangle and the size of the angle between them in degrees. Side lengths -
+positive numbers not exceeding 104, angle is a positive number
+less than 180.
+
+Output:
+Print 6 real numbers - the coordinates of the vertices of some
+triangle corresponding to the input data with an accuracy of at least 6
+decimal places.*/
 
 #include <iostream>
 #include <cmath>

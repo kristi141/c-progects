@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Найдите координаты центра вписанной окружности данного треугольника.
 
 Входные данные:
@@ -8,7 +9,21 @@
 
 Выходные данные:
 Bыведите два числа - координаты центра вписанной окружности данного 
-треугольника с точностью не меньше 6 знаков после запятой.*/
+треугольника с точностью не меньше 6 знаков после запятой.
+
+ENG
+Condition:
+Find the coordinates of the center of the inscribed circle of this triangle.
+
+Input data:
+The program receives as input the coordinates of the three vertices of a 
+triangle
+(first the coordinates of the first vertex, then the second, then the third).
+Coordinates are a pair of integers not exceeding 104 in modulo.
+
+Output:
+Print two numbers - the coordinates of the center of the inscribed circle 
+of the given triangle with an accuracy of at least 6 decimal places.*/
 
 #include <iostream>
 #include <cmath>

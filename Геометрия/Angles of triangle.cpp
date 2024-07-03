@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дан треугольник. Определите величину самого большого из его углов.
 
 Входные данные:
@@ -8,7 +9,20 @@
 
 Выходные данные:
 Выведите единственное число - величину самого большого угла треугольника 
-в градусах с точностью не меньше 6 знаков после запятой*/
+в градусах с точностью не меньше 6 знаков после запятой
+
+ENG
+Condition:
+Given a triangle. Determine the size of the largest of its angles.
+
+Input data:
+The program receives as input the coordinates of the three vertices of a triangle
+(first the coordinates of the first vertex, then the second, then the third).
+Coordinates are a pair of integers not exceeding 10^4 in modulo.
+
+Output:
+Print a single number - the value of the largest angle of the triangle
+in degrees with an accuracy of at least 6 decimal places*/
 
 #include <iostream>
 #include <cmath>

@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Постройте квадрат по двум точкам — соседним вершинам квадрата.
 
 Входные данные:
@@ -7,7 +8,19 @@
 Координаты — пара целых чисел, не превосходящих 104 по абсолютной величине.
 
 Выходные данные:
-Выведите 4 числа — координаты двух оставшихся вершин квадрата.*/
+Выведите 4 числа — координаты двух оставшихся вершин квадрата.
+
+ENG
+Condition:
+Construct a square using two points - adjacent vertices of the square.
+
+Input data:
+The program receives as input the coordinates of two adjacent vertices of a square
+(first the coordinates of the first vertex, then the second).
+Coordinates are a pair of integers not exceeding 104 in absolute value.
+
+Output:
+Print 4 numbers — the coordinates of the two remaining vertices of the square.*/
 
 #include <iostream>
 #include <cmath>

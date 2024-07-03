@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Постройте треугольник по трем сторонам.
 
 Входные данные:
@@ -9,7 +10,21 @@
 Выходные данные:
 Выведите 6 действительных чисел — координаты вершин какого-нибудь 
 треугольника соответствующего входным данным с точностью не менее 6 знаков 
-после запятой.*/
+после запятой.
+
+ENG
+Condition:
+Construct a triangle with three sides.
+
+Input data:
+The program receives three real numbers as input - the lengths of the sides
+triangle. Side lengths are positive numbers not exceeding 104,
+satisfying the triangle inequality.
+
+Output:
+Print 6 real numbers - the coordinates of the vertices of some
+triangle corresponding to the input data with an accuracy of at least 
+6 digits after the comma.*/
 
 #include <iostream>
 #include <cmath>
