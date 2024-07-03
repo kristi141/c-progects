@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Вам дан набор строк, разделенных между собой символами переноса строки.
 Вам необходимо найти все корректные подстроки вида чч:мм  
 (00 ≤ чч ≤ 23, 00 ≤ мм ≤ 59), или ч:мм am (0≤ч≤12, 00 ≤ мм ≤ 59), или ч:мм 
@@ -13,7 +14,25 @@ pm (0≤ч≤12, 00 ≤ мм ≤ 59).
 
 Выходные данные:
 Выведите все наибольшие корректные подстроки в порядке их следования в 
-тексте, каждую в отдельной строке.*/
+тексте, каждую в отдельной строке.
+
+ENG
+Condition:
+You are given a set of lines separated by line breaks.
+You need to find all valid substrings of the form hh:mm
+(00 ≤ hh ≤ 23, 00 ≤ mm ≤ 59), or h:mm am (0≤h≤12, 00 ≤ mm ≤ 59), or h:mm
+pm (0≤h≤12, 00 ≤ mm ≤ 59).
+Please note that in the correct substrings of the form “h:mm am” and “h:mm pm”
+The time value (h:mm) is separated from the time of day (am / pm)
+space character.
+
+Input data:
+In the input file you are given a set of lines separated by characters
+line break.
+
+Output:
+Print all the largest valid substrings in the order they appear in
+text, each on a separate line.*/
 
 #include <iostream>
 #include <regex>

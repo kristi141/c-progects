@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Сегодня Мерлин в плохом настроении. Он только кричит "Avada-ke-davra" да 
 ворчит что-то непонятное. Его послушникам не хотелось бы попасть под горячую 
 руку хозяина. Так как речь Мерлина равномерна (слова произносятся с 
@@ -14,7 +15,27 @@
 Для каждой строки, начинающейся с подстроки "Merlin speaks", выведите через 
 пробел номер данной строки и номер начала подстроки "Avada-ke-davra". 
 Гарантируется, что в каждой строке с "Merlin speaks" есть "Avada-ke-davra", 
-причем только одна.*/
+причем только одна.
+
+ENG
+Condition:
+Merlin is in a bad mood today. He just shouts "Avada-ke-davra" yeah
+grumbles something incomprehensible. His novices would not want to get caught 
+in hot water the owner's hand. Since Merlin's speech is uniform (words are 
+pronounced with constant speed), then it is enough to know the index of the 
+beginning of the substring with spell in Merlin's speech to avoid death. 
+Write a program which will help Merlin's novices.
+
+Input data:
+You are given a number of lines separated by symbols
+line break.
+
+Output:
+For each line starting with the substring "Merlin speaks", print through
+space the number of this line and the number of the beginning of the 
+substring "Avada-ke-davra".
+It is guaranteed that every line with "Merlin speaks" contains "Avada-ke-davra",
+and only one.*/
 
 #include <iostream>
 #include <regex>
