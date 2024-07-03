@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дан набор цифр. Считайте его строкой и переведите в число. 
 Выведите полученное число.
 
@@ -6,7 +7,18 @@
 На вход даётся набор цифр, соответствующий целому числу.
 
 Выходные данные:
-В выходной файл должно быть выведено соответствующее число.*/
+В выходной файл должно быть выведено соответствующее число.
+
+ENG
+Condition:
+Given a set of numbers. Treat it as a string and convert it to a number.
+Print the resulting number.
+
+Input data:
+The input is a set of digits corresponding to an integer.
+
+Output:
+The corresponding number should be output to the output file.*/
 
 #include <iostream>
 using namespace std;
