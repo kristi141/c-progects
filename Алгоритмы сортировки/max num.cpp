@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Вася написал на длинной полоске бумаги большое число и решил похвастаться 
 своему старшему брату Пете этим достижением. Но только он вышел из комнаты, 
 чтобы позвать брата, как его сестра Катя вбежала в комнату и разрезала 
@@ -16,7 +17,28 @@
 
 Выходные данные:
 В выходной файл должно быть выведено единственное значение - максимальное 
-число, которое могло быть написано на полоске перед разрезанием.*/
+число, которое могло быть написано на полоске перед разрезанием.
+
+ENG
+Condition:
+Vasya wrote a large number on a long strip of paper and decided to show off
+to his older brother Petya with this achievement. But as soon as he left the room,
+to call his brother, when his sister Katya ran into the room and cut
+a strip of paper into several parts. As a result, on each part it turned out
+one or more consecutive numbers.
+Now Vasya cannot remember exactly what number he wrote. Only remembers
+that it was very big. To console his younger brother, Petya decided
+find out what the maximum number could be written on a strip of paper
+before cutting. Help him!
+
+Input data:
+The input is given the number of parts (1 ≤ n ≤ 1000), and then n lines, in which
+contains from 1 to 100 digits. It is guaranteed that at least one line
+the first digit is non-zero.
+
+Output:
+A single value should be output to the output file - the maximum
+a number that may have been written on the strip before cutting.*/
 
 #include <iostream>
 #include <string>

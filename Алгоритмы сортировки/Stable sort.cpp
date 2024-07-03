@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дан целочисленный массив, состоящий из n элементов.
 Необходимо реализовать стабильную сортировку для данного массива. 
 Трудоемкость алгоритма не должна превышать O(nlogn).
@@ -13,7 +14,26 @@
 На вход дается количество элементов массива(1<=n<=100000), а затем и сам массив.
 
 Выходные данные:
-В выходной файл должен быть выведен отсортированный массив.*/
+В выходной файл должен быть выведен отсортированный массив.
+
+ENG
+Condition:
+Given an integer array consisting of n elements.
+It is necessary to implement stable sorting for this array.
+The complexity of the algorithm should not exceed O(nlogn).
+Stable sort - sorting that does not change the relative order
+sortable elements that have the same value. (For example, given an array:
+8 4 2 1 2 9, after sorting this array will look like: 1 2 2 4 8 9.
+Please note that when using stable sorting in sorted
+the array will first contain 2, whose index in the original array
+was smaller.)
+
+Input data:
+The input is the number of array elements (1<=n<=100000), and then the 
+array itself.
+
+Output:
+A sorted array should be output to the output file*/
 
 #include <iostream>
 using namespace std;

@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дан набор строк, состоящий из n элементов.
 Необходимо отсортировать заданный набор слов в лексикографическом порядке 
 (в алфавитном порядке).
@@ -7,7 +8,19 @@
 На вход даётся количество слов (n), а затем сами слова.
 
 Выходные данные:
-В выходной файл должны быть выведены все слова в лексикографическом порядке.*/
+В выходной файл должны быть выведены все слова в лексикографическом порядке.
+
+ENG
+Condition:
+Given a set of strings consisting of n elements.
+You need to sort a given set of words in lexicographical order
+(In alphabet order).
+
+Input data:
+The input is given the number of words (n), and then the words themselves.
+
+Output:
+The output file should contain all words in lexicographic order.*/
 
 #include <iostream>
 #include <string>

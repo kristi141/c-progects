@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дан целочисленный массив, состоящий из n элементов.
 Необходимо реализовать сортировку слиянием (merge sort) для данного массива.
 
@@ -6,7 +7,18 @@
 На вход дается количество элементов массива(n), а затем и сам массив.
 
 Выходные данные:
-В выходной файл должен быть выведен отсортированный массив.*/
+В выходной файл должен быть выведен отсортированный массив.
+
+ENG
+Condition:
+Given an integer array consisting of n elements.
+It is necessary to implement merge sort for this array.
+
+Input data:
+The input is the number of elements of the array (n), and then the array itself.
+
+Output:
+A sorted array should be output to the output file.*/
 
 #include <iostream>
 using namespace std;
