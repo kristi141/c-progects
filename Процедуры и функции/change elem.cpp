@@ -1,11 +1,22 @@
-/*Условие:
+/*RU
+Условие:
 Дано два числа. Поменяйте их местами в процедуре.
 
 Входные данные:
 На вход даётся два числа.
 
 Выходные данные:
-Выведите изменённые переменные.*/
+Выведите изменённые переменные.
+
+ENG
+Condition:
+Two numbers are given. Swap them in the procedure.
+
+Input data:
+Two numbers are given as input.
+
+Output:
+Print the changed variables.*/
 
 #include <iostream>
 using namespace std;

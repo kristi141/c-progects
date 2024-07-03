@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Даны два натуральных числа a и b. Напишите функцию, возвращающую их 
 минимум, и выведите его.
 
@@ -7,7 +8,19 @@
 
 Выходные данные:
 Выведите минимальное из данных чисел.
-Если числа одинаковы, выведите любое из них.*/
+Если числа одинаковы, выведите любое из них.
+
+ENG
+Condition:
+Given two natural numbers a and b. Write a function that returns them
+minimum and output it.
+
+Input data:
+The first line contains the numbers a and b (1 ≤ a,b≤109 ).
+
+Output:
+Print the minimum of the given numbers.
+If the numbers are the same, print any of them.*/
 
 #include <iostream>
 using namespace std;

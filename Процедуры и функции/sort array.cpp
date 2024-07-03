@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Необходимо написать процедуру, которая будет сортировать заданный массив.
 
 Входные данные:
@@ -8,7 +9,20 @@
 Элементы не превосходят 100000.
 
 Выходные данные:
-В выходной файл необходимо вывести отсортированный массив.*/
+В выходной файл необходимо вывести отсортированный массив.
+
+ENG
+Condition:
+It is necessary to write a procedure that will sort a given array.
+
+Input data:
+The first line of the input file contains a single number N - quantity
+array elements (1 ≤ N ≤ 1000).
+The second line contains N numbers - array elements.
+Elements do not exceed 100000.
+
+Output:
+The sorted array must be output to the output file.*/
 
 #include <iostream>
 using namespace std;

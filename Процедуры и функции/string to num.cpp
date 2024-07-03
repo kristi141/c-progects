@@ -1,11 +1,22 @@
-/*Условие:
+/*RU
+Условие:
 Дана строка. Напишите функцию для перевода её в число.
 
 Входные данные:
 На вход даётся число в виде строки.
 
 Выходные данные:
-В выходной файл должно быть выведено полученное число.*/
+В выходной файл должно быть выведено полученное число.
+
+ENG
+Condition:
+Given a string. Write a function to convert it to a number.
+
+Input data:
+The input is a number in the form of a string.
+
+Output:
+The resulting number should be printed in the output file.*/
 
 #include <iostream>
 using namespace std;
