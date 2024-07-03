@@ -1,4 +1,5 @@
-/*Условие:
+/* Ru
+Условие:
 Дан отсортированный целочисленный массив, содержащий повторяющиеся элементы 
 и состоящий из n элементов.
 Необходимо для каждого из m запросов найти, какое количество раз в данном 
@@ -17,7 +18,29 @@
 Для каждого запроса в выходной файл должно быть выведено единственное 
 значение - количество вхождений числа k в массив, если элемента k в массиве 
 нет, то необходимо вывести - «Not found».
-Значение для каждого нового запроса должно быть выведено в отдельной строке.*/
+Значение для каждого нового запроса должно быть выведено в отдельной строке.
+
+Eng
+Condition:
+Given a sorted integer array containing repeating elements
+and consisting of n elements.
+For each of the m queries, it is necessary to find the number of times in a given
+the array contains the specified value k.
+
+Input data:
+The first line of the input file contains the value n(1<=n<=100000) -
+number of array elements.
+The second line of the input file contains the array itself.
+The third line of the input file gives the value m(1<=m<=100000) –
+number of requests.
+Each of the next m lines contains a single number - the value k
+(for each request the value of k can be either different or the same).
+
+Output:
+For each request, the output file must contain a single
+value - the number of occurrences of number k in the array, if element k is in 
+the array no, then you need to display “Not found”.
+The value for each new request should be printed on a separate line*/
 
 #include <iostream>
 using namespace std;

@@ -1,4 +1,5 @@
-/*Условие:
+/*Ru
+Условие:
 Дан отсортированный в лексикографическом порядке массив, состоящий из n слов.
 Необходимо для каждого из m запросов выяснить входит ли заданное слово в 
 данный массив.
@@ -15,7 +16,27 @@
 Выходные данные:
 Для каждого запроса в выходной файл должно быть выведено единственное 
 значение - номер слова в массиве или -1, если такого слова нет.
-Значение для каждого нового запроса должно быть выведено в отдельной строке.*/
+Значение для каждого нового запроса должно быть выведено в отдельной строке.
+
+Eng
+Condition:
+Given an array sorted in lexicographic order, consisting of n words.
+For each of the m queries, it is necessary to find out whether the given word is included in
+given array.
+
+Input data:
+The first line of the input file contains the value n(1<=n<=100000) -
+number of array elements.
+The second line of the input file contains the array itself.
+The third line of the input file gives the value m(1<=m<=100000) –
+number of requests.
+Each of the next m lines contains a word (for each word request
+may be different or the same).
+
+Output:
+For each request, the output file must contain a single
+value is the number of the word in the array or -1 if there is no such word.
+The value for each new request should be printed on a separate line.*/
 
 #include <iostream>
 using namespace std;

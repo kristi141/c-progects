@@ -1,4 +1,5 @@
-/*Условие:
+/* Ru
+Условие:
 Дан отсортированный целочисленный массив, состоящий из n элементов.
 Необходимо для каждого из m запросов реализовать бинарный поиск: 
 выяснить за логарифмическое время -О(log(n)) существует ли заданное 
@@ -18,7 +19,30 @@
 Для каждого запроса в выходной файл должно быть выведено единственное 
 значение - номер элемента k в массиве или -1, если такого элемента в 
 массиве нет.
-Значение для каждого нового запроса должно быть выведено в отдельной строке.*/
+Значение для каждого нового запроса должно быть выведено в отдельной строке.
+
+Eng
+Condition:
+Given a sorted integer array consisting of n elements.
+It is necessary to implement a binary search for each of the m queries:
+find out in logarithmic time -O(log(n)) whether a given object exists
+k value in the array.
+It is guaranteed that there are no duplicate elements in the array.
+
+Input data:
+The first line of the input file contains the value n(1<=n<=100000) -
+number of array elements.
+The second line of the input file contains the array itself.
+The third line of the input file gives the value m(1<=m<=100000) –
+number of requests.
+Each of the next m lines contains a single number - the value k
+(for each request the value of k can be either different or the same).
+
+Output:
+For each request, the output file must contain a single
+value is the number of element k in the array or -1 if there is such an element in
+no array.
+The value for each new request should be printed on a separate line.*/
 
 #include <iostream>
 using namespace std;

@@ -1,4 +1,5 @@
-/*Условие:
+/*Ru
+Условие:
 Дан отсортированный целочисленный массив, состоящий из n элементов.
 Необходимо для каждого из m запросов найти номер первого и последнего 
 вхождения заданного элемента k в данный массив.
@@ -16,7 +17,28 @@
 Для каждого запроса в выходной файл должно быть выведено два значения – 
 номер первого вхождения и номер последнего вхождения элемента k в массив 
 или «Not found», если такого элемента в массиве нет.
-Значение для каждого нового запроса должно быть выведено в отдельной строке.*/
+Значение для каждого нового запроса должно быть выведено в отдельной строке.
+
+Eng
+Condition:
+Given a sorted integer array consisting of n elements.
+For each of m queries, it is necessary to find the number of the first and last
+occurrence of a given element k in a given array.
+
+Input data:
+The first line of the input file contains the value n(1<=n<=100000) -
+number of array elements.
+The second line of the input file contains the array itself.
+The third line of the input file gives the value m(1<=m<=100000) –
+number of requests.
+Each of the next m lines contains a single number - the value k
+(for each request the value of k can be either different or the same).
+
+Output:
+For each request, two values ​​should be output to the output file −
+number of the first occurrence and number of the last occurrence of element k in the array
+or “Not found” if there is no such element in the array.
+The value for each new request should be printed on a separate line.*/
 
 #include <iostream>
 using namespace std;
