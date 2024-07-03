@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дано число.
 Необходимо перевести его в двоичную систему счисления.
 
@@ -7,7 +8,19 @@
 
 Выходные данные:
 В выходной файл должно быть выведено единственное значение - 
-двоичная запись заданного числа n.*/
+двоичная запись заданного числа n.
+
+ENG
+Condition:
+A number is given.
+It is necessary to convert it to the binary number system.
+
+Input data:
+The input is an integer n (n < 17).
+
+Output:
+A single value should be output to the output file -
+binary representation of a given number n.*/
 
 #include <iostream>
 using namespace std;

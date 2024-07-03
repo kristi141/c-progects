@@ -1,4 +1,5 @@
 //Необходимо написать программу, которая выводит надпись «Hello, world!».
+//You need to write a program that displays the message “Hello, world!”
 
 #include <iostream>
 

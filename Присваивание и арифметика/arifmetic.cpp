@@ -1,4 +1,5 @@
 //Даны два числа a и b.Необходимо найти сумму этих чисел.
+//Given two numbers a and b. You need to find the sum of these numbers.
 
 #include <iostream>
 using namespace std;
@@ -10,6 +11,7 @@ int main() {
 }
 
 //разность
+//difference
 
 #include <iostream>
 using namespace std;
@@ -21,6 +23,7 @@ int main() {
 }
 
 //умножение
+//multiplication
 
 #include <iostream>
 using namespace std;
@@ -32,6 +35,7 @@ int main() {
 }
 
 //деление
+//division
 
 #include <iostream>
 using namespace std;
@@ -43,6 +47,7 @@ int main() {
 }
 
 //деление с остатком
+//division with remainder
 
 #include <iostream>
 using namespace std;

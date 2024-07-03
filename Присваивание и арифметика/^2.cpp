@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дано число.
 Необходимо найти квадрат данного числа.
 
@@ -7,7 +8,19 @@
 
 Выходные данные:
 В выходной файл должно быть выведено единственное значение – 
-квадрат данного числа.*/
+квадрат данного числа.
+
+ENG
+Condition:
+A number is given.
+You need to find the square of a given number.
+
+Input data:
+The number itself is given as input.
+
+Output:
+The output file should contain a single value -
+square of a given number.*/
 
 #include <iostream>
 using namespace std;

@@ -1,11 +1,23 @@
-/*Условие:
+/*RU
+Условие:
 Дано трёхзначное число.
 
 Входные данные:
 На вход дается натуральное трёхзначное число.
 
 Выходные данные:
-В выходной файл через пробел должны быть выведены разряды этого числа.*/
+В выходной файл через пробел должны быть выведены разряды этого числа.
+
+ENG
+Condition:
+A three-digit number is given.
+
+Input data:
+The input is a natural three-digit number.
+
+Output:
+The digits of this number must be displayed in the output file, separated 
+by spaces.*/
 
 #include <iostream>
 using namespace std;
