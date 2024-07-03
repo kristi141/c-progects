@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дано натуральное число n.
 Необходимо вывести наименьший делитель числа n, отличный от 1.
 Гарантируется что число n – составное.
@@ -8,7 +9,20 @@
 
 Выходные данные:
 В выходной файл необходимо вывести единственное значение – 
-наименьший делитель числа n.*/
+наименьший делитель числа n.
+
+ENG
+Condition:
+Given a natural number n.
+You need to print the smallest divisor of n that is different from 1.
+It is guaranteed that the number n is composite.
+
+Input data:
+The first line of the input file contains the natural number n (1 ≤ n ≤ 109).
+
+Output:
+The only value you need to output to the output file is:
+the smallest divisor of n.*/
 
 #include<iostream>
 using namespace std;

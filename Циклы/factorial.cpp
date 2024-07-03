@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дано натуральное число n.
 Необходимо вычислить факториал числа n (n!).
 Примечание: n! = 1*2*3*…*n
@@ -8,7 +9,20 @@
 
 Выходные данные:
 В выходной файл необходимо вывести единственное значение -  
-факториал числа n.*/
+факториал числа n.
+
+ENG
+Condition:
+Given a natural number n.
+It is necessary to calculate the factorial of the number n (n!).
+Note: n! = 1*2*3*…*n
+
+Input data:
+The first line of the input file contains a natural number n (1 ≤ n ≤ 12).
+
+Output:
+The only value you need to output to the output file is -
+factorial of n.*/
 
 #include<iostream>
 using namespace std;

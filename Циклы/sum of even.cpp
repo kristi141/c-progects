@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дана последовательность чисел.
 Необходимо вычислить сумму чётных элементов данной последовательности.
 
@@ -8,7 +9,20 @@
 
 Выходные данные:
 В выходной файл необходимо вывести единственное значение - 
-сумму чётных элементов данной последовательности.*/
+сумму чётных элементов данной последовательности.
+
+ENG
+Condition:
+Given a sequence of numbers.
+It is necessary to calculate the sum of the even elements of a given sequence.
+
+Input data:
+The input is a natural number n – the number of elements
+sequence, and then n natural numbers - elements of the sequence.
+
+Output:
+The only value you need to output to the output file is -
+the sum of the even elements of a given sequence.*/
 
 #include <iostream>
 using namespace std;

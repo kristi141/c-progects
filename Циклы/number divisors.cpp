@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дано натуральное число n.
 Необходимо вывести количество делителей числа n (включая 1 и n).
 
@@ -7,7 +8,19 @@
 
 Выходные данные:
 В выходной файл необходимо вывести единственное значение – 
-количество делителей числа n (включая 1 и n).*/
+количество делителей числа n (включая 1 и n).
+
+ENG
+Condition:
+Given a natural number n.
+You need to print the number of divisors of the number n (including 1 and n).
+
+Input data:
+The first line of the input file contains the natural number n (1 ≤ n ≤ 109).
+
+Output:
+The only value you need to output to the output file is:
+the number of divisors of n (including 1 and n).*/
 
 #include<iostream>
 using namespace std;

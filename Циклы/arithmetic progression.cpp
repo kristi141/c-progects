@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дана последовательность целых чисел. Необходимо определить, 
 является ли она арифметической прогрессией.
 
@@ -8,7 +9,20 @@
 
 Выходные данные:
 В выходной файл необходимо вывести "1", если последовательность 
-является арифметической прогрессией, и "0", если нет.*/
+является арифметической прогрессией, и "0", если нет.
+
+ENG
+Condition:
+Given a sequence of integers. It is necessary to determine
+Is it an arithmetic progression?
+
+Input data:
+The input is a natural number n – the number of numbers in the sequence.
+Next come n integers - elements of the sequence.
+
+Output:
+It is necessary to output "1" to the output file if the sequence
+is an arithmetic progression, and "0" if not.*/
 
 #include <iostream>
 using namespace std;

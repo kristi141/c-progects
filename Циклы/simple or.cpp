@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дано натуральное число n.
 Необходимо определить, является ли оно простым.
 
@@ -8,7 +9,20 @@
 Выходные данные:
 
 В выходной файл необходимо вывести «Yes», если число n является простым, 
-и «No» в противном случае.*/
+и «No» в противном случае.
+
+ENG
+Condition:
+Given a natural number n.
+It is necessary to determine whether it is simple.
+
+Input data:
+The first line of the input file contains the natural number n (1 ≤ n ≤ 109).
+
+Output:
+
+“Yes” should be output to the output file if the number n is prime,
+and "No" otherwise.*/
 
 #include<iostream>
 using namespace std;

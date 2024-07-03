@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дано число. Необходимо определить количество разрядов этого числа.
 
 Входные данные:
@@ -6,7 +7,19 @@
 
 Выходные данные:
 В выходной файл необходимо вывести единственное значение - 
-количество разрядов числа n.*/
+количество разрядов числа n.
+
+ENG
+Condition:
+A number is given. It is necessary to determine the number of digits of 
+this number.
+
+Input data:
+The input is a natural number n (n ≤ 109).
+
+Output:
+The only value you need to output to the output file is -
+number of digits of number n.*/
 
 #include <iostream>
 using namespace std;

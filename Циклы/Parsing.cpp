@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дано натуральное число n.
 Необходимо вывести его по цифрам в прямом и обратном порядке.
 
@@ -9,7 +10,21 @@
 В первой строке выходного файла необходимо вывести через пробел цифры 
 числа n в прямом порядке.
 Во второй строке выходного файла необходимо вывести через пробел цифры 
-числа n в обратном порядке.*/
+числа n в обратном порядке.
+
+ENG
+Condition:
+Given a natural number n.
+It is necessary to display it numerically in forward and reverse order.
+
+Input data:
+The first line of the input file contains a natural number n (1≤ n≤10^9).
+
+Output:
+In the first line of the output file you need to print the numbers separated 
+by spaces numbers n in direct order.
+In the second line of the output file you need to print the numbers separated 
+by spaces numbers n in reverse order.*/
 
 #include<iostream>
 using namespace std;
