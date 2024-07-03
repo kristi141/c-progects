@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дан массив, состоящий из n элементов.
 Необходимо вывести только чётные элементы данного массива, 
 сохранив их порядок.
@@ -10,7 +11,22 @@
 
 Выходные данные:
 В выходной файл необходимо вывести новую последовательность чисел, 
-составленную только из чётных элементов заданного массива.*/
+составленную только из чётных элементов заданного массива.
+
+ENG
+Condition:
+Given an array consisting of n elements.
+It is necessary to output only the even elements of the given array,
+keeping them in order.
+
+Input data:
+The first line of the input file contains a single natural
+number n – number of elements in the array.
+The second line contains n integers - array elements.
+
+Output:
+You need to output a new sequence of numbers to the output file,
+composed only of even elements of a given array.*/
 
 #include <iostream>
 using namespace std;

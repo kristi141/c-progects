@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дано натуральное число n.
 Необходимо вывести все натуральные простые числа от 1 до n (включительно).
 
@@ -7,7 +8,19 @@
 
 Выходные данные:
 В выходной файл необходимо вывести все простые числа от 1 до n через пробел 
-в порядке возрастания.*/
+в порядке возрастания.
+
+ENG
+Condition:
+Given a natural number n.
+It is necessary to print all natural prime numbers from 1 to n (inclusive).
+
+Input data:
+The first line of the input file contains a natural number n (1 ≤ n ≤ 106).
+
+Output:
+All prime numbers from 1 to n must be output to the output file, separated 
+by spaces.in ascending order.*/
 
 #include <iostream>
 using namespace std;

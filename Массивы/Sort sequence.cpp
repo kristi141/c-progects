@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дана последовательность чисел.
 Необходимо отсортировать её в порядке неубывания.
 
@@ -7,7 +8,19 @@
 в последовательности, далее идут n целых чисел - элементы последовательности.
 
 Выходные данные:
-В выходной файл необходимо вывести отсортированную последовательность.*/
+В выходной файл необходимо вывести отсортированную последовательность.
+
+ENG
+Condition:
+Given a sequence of numbers.
+It is necessary to sort it in non-descending order.
+
+Input data:
+The input is a natural number n (n ≤ 1000) – the number of numbers
+in the sequence, then there are n integers - the elements of the sequence.
+
+Output:
+The sorted sequence must be output to the output file.*/
 
 #include <iostream>
 using namespace std;

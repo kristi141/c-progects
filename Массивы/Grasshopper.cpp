@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 В одной из горных долин под ясным и чистым небом располагалось небольшое 
 озеро. На водной глади озера в ряд плавали несколько кувшинок. На каждой 
 кувшинке существовало некоторое количество волшебной травы. А на самой первой 
@@ -21,7 +22,34 @@
 Выходные данные:
 В выходной файл необходимо вывести суммарное количество травы, которое может 
 собрать кузнечик, перепрыгивая через одну или через две кувшинки 
-только вправо.*/
+только вправо.
+
+ENG
+Condition:
+In one of the mountain valleys under a clear and clear sky there was a small
+lake. Several water lilies floated in a row on the water surface of the lake. 
+On each There was a certain amount of magic herb in the water lily. And at 
+the very first There was a grasshopper sitting on a water lily. As you know, 
+grasshoppers in that valley are very fond of eat magic grass. But our 
+grasshopper can move along the water lilies
+only one way. In addition, he can jump over either
+one water lily, or two. Every time a grasshopper finds itself on
+water lily, he takes all the grass from it. The grasshopper's goal is to 
+collect as much grass as possible. Do you know how many water lilies were on 
+the lake and how many there was grass on every water lily. Write a program 
+that, based on these data will display the maximum amount of magic grass 
+that can be collected grasshopper reaching the last water lily.
+
+Input data:
+The first line of the input file contains a single number N - quantity
+water lilies (0 ≤ N ≤ 105).
+The second line contains N numbers, where each number Ti is equal to the number
+grass on the i-th water lily (-109 ≤ Ti ≤ 109).
+
+Output:
+The output file must display the total amount of grass that can
+collect a grasshopper by jumping over one or two water lilies
+just to the right.*/
 
 #include <iostream>
 #include <climits>

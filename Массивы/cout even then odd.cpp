@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дан массив, состоящий из n элементов.
 Необходимо вывести сначала чётные элементы массива, а затем нечётные, 
 сохранив их порядок.
@@ -10,7 +11,22 @@
 
 Выходные данные:
 В выходной файл необходимо вывести чётные, а затем нечётные 
-элементы массива.*/
+элементы массива.
+
+ENG
+Condition:
+Given an array consisting of n elements.
+It is necessary to display the even elements of the array first, and then 
+the odd ones, keeping them in order.
+
+Input data:
+The first line of the input file contains a natural number n –
+number of elements in the array.
+The second line contains n integers – array elements.
+
+Output:
+It is necessary to output even and then odd ones to the output file.
+array elements.*/
 
 #include <iostream>
 using namespace std;

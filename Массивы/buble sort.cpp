@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дан массив, состоящий из n элементов.
 Необходимо отсортировать его “Пузырьком” в порядке неубывания и 
 вывести отсортированный массив.
@@ -8,7 +9,20 @@
 n чисел – элементы массива.
 
 Выходные данные:
-В выходной файл необходимо вывести отсортированный массив.*/
+В выходной файл необходимо вывести отсортированный массив.
+
+ENG
+Condition:
+Given an array consisting of n elements.
+It is necessary to sort it with a “Bubble” in non-descending order and
+output the sorted array.
+
+Input data:
+The input is given the value n - the number of elements in the array, and then
+n numbers are array elements.
+
+Output:
+The sorted array must be output to the output file.*/
 
 #include <iostream>
 using namespace std;

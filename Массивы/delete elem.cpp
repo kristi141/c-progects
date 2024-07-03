@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дан массив, состоящий из n элементов, и значение k.
 Необходимо удалить элемент с номером k из данного массива, 
 сместив последующие элементы.
@@ -11,7 +12,23 @@
 элемента (1 ≤ k ≤ n).
 
 Выходные данные:
-В выходной файл необходимо вывести измененный массив.*/
+В выходной файл необходимо вывести измененный массив.
+
+ENG
+Condition:
+Given an array of n elements and a value k.
+It is necessary to remove element number k from the given array,
+shifting subsequent elements.
+
+Input data:
+The first line of the input file contains the natural number n –
+number of elements in the array.
+The second line contains n numbers - elements of the array.
+The third line of the input file contains a pure integer k - the number of the file to be deleted
+element (1 ≤ k ≤ n).
+
+Output:
+The modified array must be output to the output file.*/
 
 #include <iostream>
 using namespace std;

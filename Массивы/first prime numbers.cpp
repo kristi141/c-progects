@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дано натуральное число n.
 Необходимо вывести первые n простых чисел в порядке возрастания.
 
@@ -7,7 +8,19 @@
 
 Выходные данные:
 В выходной файл  необходимо вывести первые n простых чисел в 
-порядке возрастания.*/
+порядке возрастания.
+
+ENG
+Condition:
+Given a natural number n.
+You need to print the first n prime numbers in ascending order.
+
+Input data:
+The first line of the input file contains a natural number n (1 ≤ n ≤ 106).
+
+Output:
+The output file must contain the first n prime numbers in
+ascending order.*/
 
 #include <iostream>
 using namespace std;

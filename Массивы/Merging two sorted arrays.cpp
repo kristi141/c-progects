@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Даны два отсортированных в порядке неубывания массива.
 Необходимо слить их в один отсортированный массив.
 
@@ -9,7 +10,21 @@
 В третьей строке входного файла даны m целых чисел – элементы второго массива.
 
 Выходные данные:
-В выходной файл необходимо вывести слитый отсортированный массив.*/
+В выходной файл необходимо вывести слитый отсортированный массив.
+
+ENG
+Condition:
+Given two arrays sorted in non-decreasing order.
+It is necessary to merge them into one sorted array.
+
+Input data:
+The first line of the input file contains two natural numbers n and m –
+array sizes.
+The second line of the input file contains n integers - elements of the first array.
+The third line of the input file contains m integers – elements of the second array.
+
+Output:
+The merged sorted array must be output to the output file.*/
 
 #include <iostream>
 using namespace std;

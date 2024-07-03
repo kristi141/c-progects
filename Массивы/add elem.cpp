@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дан массив, состоящий из n элементов, и некоторое значение x.
 Необходимо вставить элемент x на k-ое место в данный массив, 
 сместив последующие элементы.
@@ -12,7 +13,24 @@
 число x – новый элемент.
 
 Выходные данные:
-В выходной файл необходимо вывести изменённый массив*/
+В выходной файл необходимо вывести изменённый массив
+
+ENG
+Condition:
+Given an array consisting of n elements and some value x.
+It is necessary to insert element x at the k-th place in the given array,
+shifting subsequent elements.
+
+Input data:
+The first line of the input file contains a single natural
+number n – number of elements in the array.
+The second line contains n numbers - elements of the array.
+The third line of the input file contains two numbers: k – number,
+where you need to insert a new element (1 ≤ k), and an integer
+number x is a new element.
+
+Output:
+The modified array must be output to the output file*/
 
 #include <iostream>
 using namespace std;

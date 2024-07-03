@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дан массив, состоящий из n элементов.
 Необходимо вывести его в обратном порядке.
 
@@ -9,7 +10,21 @@
 
 Выходные данные:
 В выходной файл необходимо через пробел вывести элементы массива 
-в обратном порядке.*/
+в обратном порядке.
+
+ENG
+Condition:
+Given an array consisting of n elements.
+You need to remove it in reverse order.
+
+Input data:
+The first line of the input file contains a natural number n –
+number of elements in the array.
+The second line of the input file contains n numbers - array elements.
+
+Output:
+It is necessary to print the array elements separated by spaces into the 
+output file in reverse order.*/
 
 #include <iostream>
 using namespace std;
