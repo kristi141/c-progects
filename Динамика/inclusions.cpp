@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Даны множество натуральных чисел, состоящее из n элементов, и целое значение s.
 Необходимо найти непустое подмножество, сумма которого равна s. 
 
@@ -8,7 +9,20 @@
 
 Выходные данные:
 В выходной файл должно быть выведено единственное слово: «Yes», 
-если такое подмножество существует, и «No», если его не существует.*/
+если такое подмножество существует, и «No», если его не существует.
+
+ENG
+Condition:
+Given a set of natural numbers consisting of n elements and an integer value s.
+You need to find a non-empty subset whose sum is equal to s.
+
+Input data:
+The input is given the number of elements of the set (1<=n<=100000), then
+the value of s, and then the set itself.
+
+Output:
+The output file should contain a single word: “Yes”
+if such a subset exists, and "No" if it does not exist.*/
 
 #include <iostream>
 using namespace std;

@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Грабитель, проникший в банк, обнаружил в сейфе n золотых слитков, массами 
 w1, w2, ..., wk килограмм и ценностью p1, p2, ..., pk соответственно. 
 При этом грабитель может унести слитки массой не более W килограмм. 
@@ -12,7 +13,24 @@ w1, w2, ..., wk килограмм и ценностью p1, p2, ..., 
 
 Выходные данные:
 В выходной файл выведите через пробел номера слитков, которые грабитель 
-должен взять*/
+должен взять
+
+ENG
+Condition:
+A robber who broke into a bank found masses of gold bars in the safe.
+w1,w2, ...,wk kilogram and value p1,p2, ...,pk, respectively.
+In this case, the robber can take away ingots weighing no more than W kilograms.
+Determine the set of ingots that the robber must take in order to carry off as
+as much gold as possible.
+
+Input data:
+The first line of the input file contains two values: n (1<=n<=500) –
+the number of ingots and W - the largest mass that the robber can carry away.
+The next two lines contain two arrays - the value and weight of the bars.
+
+Output:
+In the output file, print the numbers of the ingots that the robber
+must take*/
 
 #include <iostream>
 #include <vector>

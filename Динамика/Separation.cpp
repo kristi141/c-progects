@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дано множество S натуральных чисел, состоящее из n элементов. 
 
 Необходимо разделить множество S на два подмножества S1 и S2 так, что 
@@ -12,7 +13,24 @@
 Выходные данные:
 В выходной файл должно быть выведено единственное значение – 
 минимальная разница между суммой элементов первого подмножества и 
-суммой элементов второго подмножества.*/
+суммой элементов второго подмножества.
+
+ENG
+Condition:
+Given a set S of natural numbers, consisting of n elements.
+
+It is necessary to divide the set S into two subsets S1 and S2 so that
+difference between the sum of elements of subset S1 and the sum of elements
+subset S2 will be minimal.
+
+Input data:
+The input is given the number of elements of the set (1<=n<=105), and then
+a bunch of.
+
+Output:
+The output file should contain a single value -
+the minimum difference between the sum of the elements of the first subset and
+the sum of the elements of the second subset.*/
 
 #include <iostream>
 #include <vector>

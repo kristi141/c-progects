@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дана шахматная доска размером n*m.  На каждой клетке данной доски стоит число 
 (числа могут быть как положительными, так и отрицательными). На данной доске 
 стоит шахматный конь (в левой верхней клетке).  
@@ -18,7 +19,30 @@
 В выходной файл должно быть выведено единственное значение – наибольшая 
 сумма, которую сможет собрать конь.  
 Если конь не может добраться до правой нижней клетки доски, 
-то выведите «-». */
+то выведите «-». 
+
+ENG
+Condition:
+Given a chessboard of size n*m. On each square of this board there is a number
+(numbers can be either positive or negative). On this board
+there is a chess knight (in the upper left square).
+Help the knight get to the bottom right square of this board and at the same time
+collect the largest sum of numbers.
+A horse can only move in two ways:
+2 cells to the right and 1 down (x+2, y+1);
+2 cells down and 1 to the right (x+1, y+2).
+
+Input data:
+The first line of the input file contains two values: n,m (1<=n, m<=1000) –
+field dimension.
+Further in the input file the field itself is given.
+The upper left cell of the board has coordinates (1, 1), the lower right - (n, m).
+
+Output:
+A single value should be output to the output file - the largest
+the amount that the horse can collect.
+If the knight cannot reach the bottom right square of the board,
+then print "-".*/
 
 #include <iostream>
 #include <vector>

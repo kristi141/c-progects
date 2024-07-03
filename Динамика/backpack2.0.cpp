@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Грабитель, проникший в банк, обнаружил в сейфе n золотых слитков, массами 
 w1, w2, ..., wk килограмм и ценностью p1, p2, ..., pk соответственно. 
 При этом грабитель может унести слитки массой не более W килограмм. 
@@ -15,7 +16,27 @@ w1, w2, ..., wk килограмм и ценностью p1, p2, ..., 
 
 Выходные данные:
 В выходной файл должно быть выведено единственное значение – наибольшая 
-стоимость всех слитков, которые должен вынести грабитель*/
+стоимость всех слитков, которые должен вынести грабитель
+
+ENG
+Condition:
+A robber who broke into a bank found masses of gold bars in the safe.
+w1,w2, ...,wk kilogram and value p1,p2, ...,pk, respectively.
+In this case, the robber can take away ingots weighing no more than W kilograms.
+Determine the set of ingots that the robber must take to carry away
+as much gold as possible.
+
+Input data:
+The first line of the input file contains two values: n (1<=n<=1000) –
+the number of ingots and W - the largest mass that the robber can carry away.
+
+Next are two lines:
+The first line contains n numbers - the value of the bullion.
+The second line contains n numbers - the weight of the ingots.
+
+Output:
+A single value should be output to the output file - the largest
+the value of all the bullion that the robber must carry out*/
 
 #include <iostream> 
 using namespace std;

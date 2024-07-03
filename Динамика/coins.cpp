@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Даны n различных номиналов монет, каждый номинал имеет своё достоинство. 
 Необходимо указать минимальное количество монет для получения 
 заданной суммы s. Для получения суммы s можно брать БЕСКОНЕЧНОЕ количество 
@@ -11,7 +12,23 @@
 Выходные данные:
 В выходной файл должно быть выведено единственное значение – 
 минимальное количество монет, если же собрать необходимую сумму невозможно, 
-то следует вывести -1. */
+то следует вывести -1. 
+
+ENG
+Condition:
+Given n different denominations of coins, each denomination has its own denomination.
+You must specify the minimum number of coins to receive
+given amount s. To obtain the sum s you can take an INFINITE amount
+coins of ANY denomination
+
+Input data:
+The input is the number of coin denominations (0<=n<=100000), then the value s,
+and then the denomination of each denomination.
+
+Output:
+The output file should contain a single value -
+minimum number of coins, but if it is impossible to collect the required amount,
+then you should output -1.*/
 
 #include <iostream>
 #include <vector>

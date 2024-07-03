@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 В левом верхнем углу прямоугольной поляны размером n*m находится черепашка. 
 На каждой клетке поля разлито некоторое количество кислоты. Черепашка может 
 перемещаться только вправо или вниз, при этом маршрут черепашки заканчивается 
@@ -18,7 +19,30 @@
 
 Выходные данные:
 В первой строке входного файла должно быть выведено единственное значение – 
-наименьшую возможную стоимость маршрута черепашки.*/
+наименьшую возможную стоимость маршрута черепашки.
+
+ENG
+Condition:
+There is a turtle in the upper left corner of a rectangular clearing of size 
+n*m. A certain amount of acid is spilled on each square of the field. The 
+turtle can move only to the right or down, and the turtle's route ends
+in the lower right corner of the table. Every milliliter of acid brings a 
+turtle some amount of damage.
+It is necessary to find the smallest possible value of damage that will be 
+received turtle after a walk in the clearing.
+This image shows the Turtle's route. The minimum damage that
+she will get - 7.
+
+Input data:
+The first line contains two natural numbers: n, m (1<=n, m<=1000)-
+dimensions of the clearing.
+Each of the next n lines contains m numbers separated by spaces -
+description of the clearing indicating for each cell the acid content on it
+(in milliliters).
+
+Output:
+The first line of the input file should contain a single value -
+the lowest possible cost for the turtle's route.*/
 
 #include <iostream>
 #include <algorithm>
