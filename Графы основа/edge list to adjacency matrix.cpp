@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Некоторый неориентрированный граф задан списком ребер, выведите его 
 представление в виде матрицы смежности. 
 
@@ -9,7 +10,21 @@
 которыми существует ребро. 
 
 Выходные данные:
-Необходимо вывести матрицу смежности заданного графа.*/
+Необходимо вывести матрицу смежности заданного графа.
+
+ENG
+Condition:
+Some undirected graph is given a list of edges, print it
+representation in the form of an adjacency matrix.
+
+Input data:
+The program input receives numbers n (1<=n<=100) – the number of vertices in 
+the graph and m (1<=m<=n(n-1)/2) – number of edges.
+Then follows m pairs of numbers. These numbers indicate the numbers of 
+vertices, between with which the edge exists.
+
+Output:
+It is necessary to display the adjacency matrix of a given graph.*/
 
 #include <iostream>
 #include <vector>

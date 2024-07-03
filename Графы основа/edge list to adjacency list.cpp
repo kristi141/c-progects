@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Некоторый граф задан списком ребер, выведите его представление в виде списка 
 смежности. 
 
@@ -11,7 +12,24 @@
 Выходные данные:
 Необходимо вывести список смежности заданного графа в формате: «i: a b c», 
 где «i» – номер вершины, а «a b c» -номера смежных вершин через пробел. 
-Номера вершин и смежных вершин должны идти в порядке возрастания*/
+Номера вершин и смежных вершин должны идти в порядке возрастания
+
+ENG
+Condition:
+Some graph is given a list of edges, output its representation as a list
+adjacency.
+
+Input data:
+The program input receives numbers n (1<=n<=100) – the number of vertices in 
+the graph and m (1<=m<=n(n-1)/2) – number of edges.
+Then follows m pairs of numbers. These numbers indicate the numbers of 
+vertices, between with which the edge exists.
+
+Output:
+It is necessary to display a list of adjacencies of a given graph in the 
+format: “i: a b c”, where “i” is the number of the vertex, and “a b c” are 
+the numbers of adjacent vertices separated by a space.
+The numbers of vertices and adjacent vertices must be in ascending order*/
 
 #include <iostream>
 #include <vector>

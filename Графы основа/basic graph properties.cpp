@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Дан граф.
 Необходимо проверить следующие свойства данного графа:
 определенность: граф называется определенным, если  хотя бы у одного из его 
@@ -21,7 +22,35 @@
 в противном случае выведите -1.  
 
 Первая строка – свойство определенности, вторая строка – свойство взвешенности, 
-третья строка – свойство транзитивности, четвертая строка – свойство полноты.*/
+третья строка – свойство транзитивности, четвертая строка – свойство полноты.
+
+ENG
+Condition:
+YOU HAVE Count.
+It is necessary to check the following properties of this graph:
+definiteness: a graph is called definite if at least one of its
+the direction of the edges is specified;
+weighting: a graph is called weighted if there is a value characterizing
+connection between its edges (in this problem the graph will have a given
+property if at least one of its edges has a weight different from 0 and 1);
+transitivity: a graph is called transitive if it always follows that
+vertices a and b are connected by an edge and vertices b and c are connected 
+by an edge, that vertices a and c are connected by an edge;
+completeness: a graph in which every pair of distinct vertices is adjacent.
+
+Input data:
+The program input receives the number n (1<=n<=100) – the number of vertices 
+in the graph.
+Then the adjacency matrix of this graph is received.
+
+Output:
+Four values ​​must be output to the output file (each value must
+be printed on a new line): if the graph has this property print 1,
+otherwise print -1.
+
+The first line is the property of certainty, the second line is the property 
+of balance, the third line is the transitivity property, the fourth line is 
+the completeness property.*/
 
 #include <iostream> 
 using namespace std; 

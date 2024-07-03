@@ -1,4 +1,5 @@
-/*Условие:
+/*RU
+Условие:
 Некоторый граф задан матрицей смежности, выведите его представление в виде 
 списка смежности.
 
@@ -10,7 +11,23 @@
 
 Выходные данные:
 Необходимо вывести список смежности заданного графа в формате: «i: a b c», 
-где «i» – номер вершины, а «a b c» -номера смежных вершин через пробел*/
+где «i» – номер вершины, а «a b c» -номера смежных вершин через пробел
+
+ENG
+Condition:
+A certain graph is given by an adjacency matrix; print its representation in 
+the form adjacency list.
+
+Input data:
+The first line of the input file contains the number n (1<=n<=100) – the 
+number of vertices in the graph. Each of the next n lines contains n numbers, 
+each of which is equal to 0 or 1 is the adjacency matrix of a given graph 
+(1 means the presence of an edge, and 0 – its absence).
+
+Output:
+It is necessary to display a list of adjacencies of a given graph in the 
+format: “i: a b c”, where “i” is the number of the vertex, and “a b c” are 
+the numbers of adjacent vertices separated by a space*/
 
 #include <iostream>
 #include <vector>
