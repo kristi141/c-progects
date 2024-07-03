@@ -10,6 +10,12 @@
 В выходной файл  необходимо вывести первые n простых чисел в 
 порядке возрастания.
 
+Входные данные:
+5
+
+Выходные данные:
+2 3 5 7 11
+
 ENG
 Condition:
 Given a natural number n.
@@ -20,7 +26,13 @@ The first line of the input file contains a natural number n (1 ≤ n ≤�
 
 Output:
 The output file must contain the first n prime numbers in
-ascending order.*/
+ascending order.
+
+Input data:
+5
+
+Output:
+2 3 5 7 11                           */
 
 #include <iostream>
 using namespace std;

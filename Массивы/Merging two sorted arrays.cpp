@@ -12,6 +12,24 @@
 Выходные данные:
 В выходной файл необходимо вывести слитый отсортированный массив.
 
+Входные данные:
+1)
+5 5
+1 3 5 7 9
+2 4 6 8 10
+
+2)
+1 2
+2
+1 3
+
+Выходные данные:
+1)
+1 2 3 4 5 6 7 8 9 10
+
+2)
+1 2 3
+
 ENG
 Condition:
 Given two arrays sorted in non-decreasing order.
@@ -24,7 +42,25 @@ The second line of the input file contains n integers - elements of the first ar
 The third line of the input file contains m integers – elements of the second array.
 
 Output:
-The merged sorted array must be output to the output file.*/
+The merged sorted array must be output to the output file.
+
+Input data:
+1)
+5 5
+1 3 5 7 9
+2 4 6 8 10
+
+2)
+1 2
+2
+1 3
+
+Output:
+1)
+1 2 3 4 5 6 7 8 9 10
+
+2)
+1 2 3                                                    */
 
 #include <iostream>
 using namespace std;

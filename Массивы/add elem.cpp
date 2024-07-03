@@ -15,6 +15,24 @@
 Выходные данные:
 В выходной файл необходимо вывести изменённый массив
 
+Входные данные:
+1)
+5
+1 5 2 5 3
+3 -2
+
+2)
+1
+1
+1 2
+
+Выходные данные:
+1)
+1 5 -2 2 5 3
+
+2)
+2 1
+
 ENG
 Condition:
 Given an array consisting of n elements and some value x.
@@ -30,7 +48,25 @@ where you need to insert a new element (1 ≤ k), and an integer
 number x is a new element.
 
 Output:
-The modified array must be output to the output file*/
+The modified array must be output to the output file
+
+Input data:
+1)
+5
+1 5 2 5 3
+3 -2
+
+2)
+1
+1
+1 2
+
+Output:
+1)
+1 5 -2 2 5 3
+
+2)
+2 1                    */
 
 #include <iostream>
 using namespace std;

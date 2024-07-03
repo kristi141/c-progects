@@ -11,6 +11,19 @@
 Выходные данные:
 В выходной файл необходимо вывести единственное значение - искомую сумму.
 
+Входные данные:
+1)
+1 1 1
+1
+
+2)
+5 2 3
+1 2 3 4 5
+
+Выходные данные:
+1) 1
+2) 5
+
 ENG
 Condition:
 Given an array consisting of n elements.
@@ -22,7 +35,21 @@ in the array, k and m (1 ≤ k ≤ m ≤ n) – numbers of elements.
 The second line of the input file contains n numbers - array elements.
 
 Output:
-The only value that needs to be output to the output file is the required amount.*/
+The only value that needs to be output to the output file is the 
+required amount.
+
+Input data:
+1)
+1 1 1
+1
+
+2)
+5 2 3
+1 2 3 4 5
+
+Output:
+1) 1
+2) 5                                */
 
 #include <iostream>
 using namespace std;

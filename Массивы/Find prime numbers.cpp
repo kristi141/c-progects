@@ -10,6 +10,17 @@
 В выходной файл необходимо вывести все простые числа от 1 до n через пробел 
 в порядке возрастания.
 
+Входные данные:
+1) 12
+2) 23
+
+Выходные данные:
+1)
+2 3 5 7 11
+
+2)
+2 3 5 7 11 13 17 19 23
+
 ENG
 Condition:
 Given a natural number n.
@@ -20,7 +31,18 @@ The first line of the input file contains a natural number n (1 ≤ n ≤�
 
 Output:
 All prime numbers from 1 to n must be output to the output file, separated 
-by spaces.in ascending order.*/
+by spaces.in ascending order.
+
+Input data:
+1) 12
+2) 23
+
+Output:
+1)
+2 3 5 7 11
+
+2)
+2 3 5 7 11 13 17 19 23*/
 
 #include <iostream>
 using namespace std;

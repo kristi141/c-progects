@@ -10,6 +10,20 @@
 В выходной файл необходимо вывести через пробел элементы заданного массива 
 в обратном порядке.
 
+Входные данные:
+1) 
+1 2 3 4 5
+
+2)
+9 1 5 2 8 3 0
+
+Выходные данные:
+1)
+5 4 3 2 1
+
+2)
+0 3 8 2 5 1 9
+
 ENG
 Condition:
 Given an array.
@@ -20,7 +34,21 @@ The array itself is given as input.
 
 Output:
 It is necessary to output the elements of the specified array separated by 
-spaces into the output file in reverse order.*/
+spaces into the output file in reverse order.
+
+Input data:
+1) 
+1 2 3 4 5
+
+2)
+9 1 5 2 8 3 0
+
+Output:
+1)
+5 4 3 2 1
+
+2)
+0 3 8 2 5 1 9                           */
 
 #include <iostream>
 using namespace std;

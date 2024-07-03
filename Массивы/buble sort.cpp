@@ -11,6 +11,19 @@ n чисел – элементы массива.
 Выходные данные:
 В выходной файл необходимо вывести отсортированный массив.
 
+Входные данные:
+1)
+1 1
+
+2)
+5 5 4 3 2 1
+
+Выходные данные:
+1) 1
+
+2)
+1 2 3 4 5
+
 ENG
 Condition:
 Given an array consisting of n elements.
@@ -22,7 +35,20 @@ The input is given the value n - the number of elements in the array, and then
 n numbers are array elements.
 
 Output:
-The sorted array must be output to the output file.*/
+The sorted array must be output to the output file.
+
+Input data:
+1)
+1 1
+
+2)
+5 5 4 3 2 1
+
+Output:
+1) 1
+
+2)
+1 2 3 4 5                         */
 
 #include <iostream>
 using namespace std;

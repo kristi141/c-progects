@@ -12,6 +12,19 @@
 В выходной файл необходимо через пробел вывести элементы массива 
 в обратном порядке.
 
+Входные данные:
+1)
+3
+1 2 3
+
+2)
+1
+1
+
+Выходные данные:
+1) 3 2 1
+2) 1
+
 ENG
 Condition:
 Given an array consisting of n elements.
@@ -24,7 +37,20 @@ The second line of the input file contains n numbers - array elements.
 
 Output:
 It is necessary to print the array elements separated by spaces into the 
-output file in reverse order.*/
+output file in reverse order.
+
+Input data:
+1)
+3
+1 2 3
+
+2)
+1
+1
+
+Output:
+1) 3 2 1
+2) 1                    */
 
 #include <iostream>
 using namespace std;

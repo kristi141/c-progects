@@ -14,6 +14,23 @@
 Выходные данные:
 В выходной файл необходимо вывести измененный массив.
 
+Входные данные:
+1)
+5
+1 5 2 5 3
+3
+
+2)
+1
+1
+1
+
+Выходные данные:
+1)
+1 5 5 3
+
+2)          (nothing)
+
 ENG
 Condition:
 Given an array of n elements and a value k.
@@ -28,7 +45,24 @@ The third line of the input file contains a pure integer k - the number of the f
 element (1 ≤ k ≤ n).
 
 Output:
-The modified array must be output to the output file.*/
+The modified array must be output to the output file.
+
+Input data:
+1)
+5
+1 5 2 5 3
+3
+
+2)
+1
+1
+1
+
+Output:
+1)
+1 5 5 3
+
+2)          (nothing)                               */
 
 #include <iostream>
 using namespace std;

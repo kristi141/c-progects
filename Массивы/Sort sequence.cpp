@@ -10,6 +10,19 @@
 Выходные данные:
 В выходной файл необходимо вывести отсортированную последовательность.
 
+Входные данные:
+1)
+5 5 4 3 2 1
+
+2)
+1 1
+
+Выходные данные:
+1)
+1 2 3 4 5
+
+2) 1
+
 ENG
 Condition:
 Given a sequence of numbers.
@@ -20,7 +33,20 @@ The input is a natural number n (n ≤ 1000) – the number of numbers
 in the sequence, then there are n integers - the elements of the sequence.
 
 Output:
-The sorted sequence must be output to the output file.*/
+The sorted sequence must be output to the output file.
+
+Input data:
+1)
+5 5 4 3 2 1
+
+2)
+1 1
+
+Output:
+1)
+1 2 3 4 5
+
+2) 1                      */
 
 #include <iostream>
 using namespace std;

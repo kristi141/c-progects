@@ -24,6 +24,19 @@
 собрать кузнечик, перепрыгивая через одну или через две кувшинки 
 только вправо.
 
+Входные данные:
+1)
+5
+3 -3 6 1 5
+
+2)
+6
+1 4 5 10 20 6
+
+Выходные данные:
+1) 14
+2) 17
+
 ENG
 Condition:
 In one of the mountain valleys under a clear and clear sky there was a small
@@ -49,7 +62,20 @@ grass on the i-th water lily (-109 ≤ Ti ≤ 109).
 Output:
 The output file must display the total amount of grass that can
 collect a grasshopper by jumping over one or two water lilies
-just to the right.*/
+just to the right.
+
+Input data:
+1)
+5
+3 -3 6 1 5
+
+2)
+6
+1 4 5 10 20 6
+
+Output:
+1) 14
+2) 17                             */
 
 #include <iostream>
 #include <climits>

@@ -13,6 +13,21 @@
 В выходной файл необходимо вывести чётные, а затем нечётные 
 элементы массива.
 
+Входные данные:
+1)
+5
+1 5 2 5 3
+
+2)
+1
+1
+
+Выходные данные:
+1)
+2 1 5 5 3
+
+2) 1
+
 ENG
 Condition:
 Given an array consisting of n elements.
@@ -26,7 +41,22 @@ The second line contains n integers – array elements.
 
 Output:
 It is necessary to output even and then odd ones to the output file.
-array elements.*/
+array elements.
+
+Input data:
+1)
+5
+1 5 2 5 3
+
+2)
+1
+1
+
+Output:
+1)
+2 1 5 5 3
+
+2) 1                   */
 
 #include <iostream>
 using namespace std;

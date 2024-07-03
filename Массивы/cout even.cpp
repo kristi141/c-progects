@@ -13,6 +13,19 @@
 В выходной файл необходимо вывести новую последовательность чисел, 
 составленную только из чётных элементов заданного массива.
 
+Входные данные:
+1)
+5
+1 5 2 5 3
+
+2)
+1
+1
+
+Выходные данные:
+1) 2
+2)   (nothing)
+
 ENG
 Condition:
 Given an array consisting of n elements.
@@ -26,7 +39,20 @@ The second line contains n integers - array elements.
 
 Output:
 You need to output a new sequence of numbers to the output file,
-composed only of even elements of a given array.*/
+composed only of even elements of a given array.
+
+Input data:
+1)
+5
+1 5 2 5 3
+
+2)
+1
+1
+
+Output:
+1) 2
+2)   (nothing)                           */
 
 #include <iostream>
 using namespace std;
