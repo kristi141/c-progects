@@ -16,6 +16,13 @@
 Выходные данные:
 В выходной файл должен быть выведен отсортированный массив.
 
+Входные данные:
+9
+9 7 -1 3 0 -5 1 -1 3
+
+Выходные данные:
+-5 -1 -1 0 1 3 3 7 9
+
 ENG
 Condition:
 Given an integer array consisting of n elements.
@@ -33,7 +40,14 @@ The input is the number of array elements (1<=n<=100000), and then the
 array itself.
 
 Output:
-A sorted array should be output to the output file*/
+A sorted array should be output to the output file
+
+Input data:
+9
+9 7 -1 3 0 -5 1 -1 3
+
+Output:
+-5 -1 -1 0 1 3 3 7 9              */
 
 #include <iostream>
 using namespace std;

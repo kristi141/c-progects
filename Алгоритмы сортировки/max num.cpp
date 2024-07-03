@@ -19,6 +19,22 @@
 В выходной файл должно быть выведено единственное значение - максимальное 
 число, которое могло быть написано на полоске перед разрезанием.
 
+Входные данные:
+1)
+4
+2
+20
+004
+66
+
+2) 
+1
+3
+
+Выходные данные:
+1)66220004
+2) 3
+
 ENG
 Condition:
 Vasya wrote a large number on a long strip of paper and decided to show off
@@ -38,7 +54,23 @@ the first digit is non-zero.
 
 Output:
 A single value should be output to the output file - the maximum
-a number that may have been written on the strip before cutting.*/
+a number that may have been written on the strip before cutting.
+
+Input data:
+1)
+4
+2
+20
+004
+66
+
+2) 
+1
+3
+
+Output:
+1)66220004
+2) 3*/
 
 #include <iostream>
 #include <string>

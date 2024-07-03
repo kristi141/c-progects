@@ -10,6 +10,12 @@
 Выходные данные:
 В выходной файл должны быть выведены все слова в лексикографическом порядке.
 
+Входные данные:
+2 aaaaa aaaa
+
+Выходные данные:
+aaaa aaaaa
+
 ENG
 Condition:
 Given a set of strings consisting of n elements.
@@ -20,7 +26,13 @@ Input data:
 The input is given the number of words (n), and then the words themselves.
 
 Output:
-The output file should contain all words in lexicographic order.*/
+The output file should contain all words in lexicographic order.
+
+Input data:
+2 aaaaa aaaa
+
+Output:
+aaaa aaaaa           */
 
 #include <iostream>
 #include <string>
