@@ -11,6 +11,13 @@
 Выходные данные:
 В выходной файл необходимо вывести отсортированный массив.
 
+Входные данные:
+5
+7 3 0 1 4
+
+Выходные данные:
+0 1 3 4 7
+
 ENG
 Condition:
 It is necessary to write a procedure that will sort a given array.
