@@ -18,6 +18,16 @@
 Если пути до соответствующей вершины не существует, вместо длины пути 
 выведите – «No».
 
+Входные данные:
+6 4
+1 2 10
+2 3 10
+1 3 100
+4 5 -10
+
+Выходные данные:
+0 10 20 No No No
+
 ENG
 Condition:
 Given a directed graph that can have multiple edges and loops.
@@ -38,7 +48,17 @@ Output:
 The program should output N numbers – the distances from vertex number 1 to all
 vertices of the graph.
 If there is no path to the corresponding vertex, instead of the path length
-output – “No”.*/
+output – “No”.
+
+Input data:
+6 4
+1 2 10
+2 3 10
+1 3 100
+4 5 -10
+
+Output:
+0 10 20 No No No                                       */
 
 #include <iostream>
 #include <vector>

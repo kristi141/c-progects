@@ -17,6 +17,15 @@
 Необходимо вывести единственное значение - минимальную длину пути. Если пути 
 не существует, выведите -1
 
+Входные данные:
+3 1 2
+0 -1 3
+7 0 1
+2 215 0
+
+Выходные данные:
+218
+
 ENG
 Condition:
 Given a directed weighted graph whose edges are assigned certain
@@ -35,7 +44,16 @@ absence of a corresponding edge.
 
 Output:
 The only value that needs to be output is the minimum path length. If the path
-does not exist, print -1*/
+does not exist, print -1
+
+Input data:
+3 1 2
+0 -1 3
+7 0 1
+2 215 0
+
+Output:
+218                                  */
 
 #include <iostream>
 #include <algorithm>

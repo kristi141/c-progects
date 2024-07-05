@@ -15,6 +15,15 @@
 Необходимо вывести единственное значение - искомое расстояние или -1, если 
 пути между указанными вершинами не существует.
 
+Входные данные:
+3 2 1
+0 1 1
+4 0 1
+2 1 0
+
+Выходные данные:
+3
+
 ENG
 Condition:
 Given a directed weighted graph.
@@ -31,7 +40,16 @@ and any non-negative number means the presence of an edge of a given weight.
 
 Output:
 It is necessary to display a single value - the required distance or -1 if
-there is no path between the specified vertices.*/
+there is no path between the specified vertices.
+
+Input data:
+3 2 1
+0 1 1
+4 0 1
+2 1 0
+
+Output:
+3                                                  */
 
 #include <iostream>
 #include <vector>
