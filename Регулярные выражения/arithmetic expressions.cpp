@@ -15,6 +15,14 @@
 Выведите все наибольшие корректные подстроки в порядке их следования в тексте, 
 каждую в отдельной строке
 
+Входные данные:
+a+5*42/0
+a1a
+
+Выходные данные:
+5*42
+1
+
 ENG
 Condition:
 A correct arithmetic expression will be considered a string consisting of
@@ -30,7 +38,15 @@ line break.
 
 Output:
 Print all the largest valid substrings in the order they appear in the text,
-each on a separate line*/
+each on a separate line
+
+Input data:
+a+5*42/0
+a1a
+
+Output:
+5*42
+1                                               */
 
 #include <iostream>
 #include <regex>

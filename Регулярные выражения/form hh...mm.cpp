@@ -11,6 +11,13 @@
 Выведите все необходимые подстроки в порядке их следования в тексте, 
 отделяя каждую переносом строки.
 
+Входные данные:
+I'll meet you at 11:37
+The game ended with a score of 88:64 
+
+Выходные данные:
+11:37
+
 ENG
 Condition:
 You are given a set of lines separated by line breaks.
@@ -22,7 +29,14 @@ line break.
 
 Output:
 Print all the necessary substrings in the order they appear in the text,
-separating each with a line break.*/
+separating each with a line break.
+
+Input data:
+I'll meet you at 11:37
+The game ended with a score of 88:64 
+
+Output:
+11:37                                       */
 
 #include <iostream>
 #include <regex>

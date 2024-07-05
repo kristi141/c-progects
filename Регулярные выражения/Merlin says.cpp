@@ -17,6 +17,15 @@
 Гарантируется, что в каждой строке с "Merlin speaks" есть "Avada-ke-davra", 
 причем только одна.
 
+Входные данные:
+Merlin speaksAvada-ke-davra$##*#$!
+Avada-ke-davra
+Merlin speaks77Avada-ke-davra295459588257665357:949;66466
+
+Выходные данные:
+1 14
+3 16
+
 ENG
 Condition:
 Merlin is in a bad mood today. He just shouts "Avada-ke-davra" yeah
@@ -35,7 +44,16 @@ For each line starting with the substring "Merlin speaks", print through
 space the number of this line and the number of the beginning of the 
 substring "Avada-ke-davra".
 It is guaranteed that every line with "Merlin speaks" contains "Avada-ke-davra",
-and only one.*/
+and only one.
+
+Input data:
+Merlin speaksAvada-ke-davra$##*#$!
+Avada-ke-davra
+Merlin speaks77Avada-ke-davra295459588257665357:949;66466
+
+Output:
+1 14
+3 16                                              */
 
 #include <iostream>
 #include <regex>

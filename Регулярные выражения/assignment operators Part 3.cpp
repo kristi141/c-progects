@@ -25,6 +25,20 @@ Cтроки вида: «a=6», «a-=10;», «d=#$&_h», «a*=r;»- являют�
 Выведите все наибольшие корректные подстроки в порядке их следования в тексте, 
 каждую в отдельной строке.
 
+Входные данные:
+hello>a=18;a=rrr
+846y=t+2;h4r890a*=10;xd[b]=7;
+s=a;g=yur;d=q::*
+f = b[p-9];
+
+Выходные данные:
+a=18;
+y=t+2;
+xd[b]=7;
+s=a;
+g=yur;
+f = b[p-9];
+
 ENG
 Condition:
 You are given a set of lines separated by line breaks.
@@ -50,7 +64,21 @@ line break.
 
 Output:
 Print all the largest valid substrings in the order they appear in the text,
-each on a separate line.*/
+each on a separate line.
+
+Input data:
+hello>a=18;a=rrr
+846y=t+2;h4r890a*=10;xd[b]=7;
+s=a;g=yur;d=q::*
+f = b[p-9];
+
+Output:
+a=18;
+y=t+2;
+xd[b]=7;
+s=a;
+g=yur;
+f = b[p-9];*/
 
 #include <iostream>
 #include <regex>

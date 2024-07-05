@@ -16,6 +16,15 @@ pm (0≤ч≤12, 00 ≤ мм ≤ 59).
 Выведите все наибольшие корректные подстроки в порядке их следования в 
 тексте, каждую в отдельной строке.
 
+Входные данные:
+aaa3:12bbb
+d5:54 amsdp
+13:23
+
+Выходные данные:
+5:54 am
+13:23
+
 ENG
 Condition:
 You are given a set of lines separated by line breaks.
@@ -32,7 +41,16 @@ line break.
 
 Output:
 Print all the largest valid substrings in the order they appear in
-text, each on a separate line.*/
+text, each on a separate line.
+
+Input data:
+aaa3:12bbb
+d5:54 amsdp
+13:23
+
+Output:
+5:54 am
+13:23                                      */
 
 #include <iostream>
 #include <regex>

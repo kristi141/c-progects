@@ -13,6 +13,15 @@
 ч:мм(0≤ч≤12, 00 ≤ мм ≤ 59) в порядке их следования в тексте, каждую в 
 отдельной строке
 
+Входные данные:
+I'll meet you at 4:37
+15:23
+The game ended with a score of 8:64 
+
+Выходные данные:
+4:37
+15:23
+
 ENG
 Condition:
 You are given a set of lines separated by line breaks.
@@ -25,7 +34,16 @@ You are given a number of lines separated by symbols line break.
 Output:
 Print all substrings of the form hh:mm (00 ≤ hh ≤ 23, 00 ≤ mm ≤ 59) OR
 h:mm(0≤h≤12, 00 ≤ mm ≤ 59) in the order they appear in the text, each in
-separate line*/
+separate line
+
+Input data:
+I'll meet you at 4:37
+15:23
+The game ended with a score of 8:64 
+
+Output:
+4:37
+15:23                                                  */
 
 #include <iostream>
 #include <regex>
