@@ -17,6 +17,19 @@
 Необходимо вывести путь (номера всех вершин в правильном порядке). 
 Если пути нет, нужно вывести -1.
 
+Входные данные:
+5
+0 1 0 0 1
+1 0 1 0 0
+0 1 0 0 0
+0 0 0 0 0
+1 0 0 0 0
+3 5
+
+Выходные данные:
+3
+3 2 1 5
+
 ENG
 Condition:
 Given an undirected graph.
@@ -35,7 +48,20 @@ need to go through), and then the path itself.
 If the path has length 0, then there is no need to print it, it is enough 
 to print the length. It is necessary to print the path (the numbers of all 
 vertices in the correct order).
-If there is no path, you need to print -1.*/
+If there is no path, you need to print -1.
+
+Input data:
+5
+0 1 0 0 1
+1 0 1 0 0
+0 1 0 0 0
+0 0 0 0 0
+1 0 0 0 0
+3 5
+
+Output:
+3
+3 2 1 5                            */
 
 #include <iostream>
 #include <vector>

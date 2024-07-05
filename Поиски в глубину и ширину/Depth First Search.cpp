@@ -16,6 +16,17 @@
 Выходные данные:
 Выведите получившийся компонент связности
 
+Входные данные:
+4
+1
+0 1 1 0
+1 0 0 0
+1 0 0 0
+0 0 0 0
+
+Выходные данные:
+1 2 3
+
 ENG
 Condition:
 Given an undirected unweighted graph.
@@ -32,7 +43,18 @@ The following is the adjacency matrix of this graph, in which 0 means the absenc
 edges between vertices, and 1 – its presence.
 
 Output:
-Print the resulting connected component*/
+Print the resulting connected component
+
+Input data:
+4
+1
+0 1 1 0
+1 0 0 0
+1 0 0 0
+0 0 0 0
+
+Output:
+1 2 3                                   */
 
 #include <iostream>
 #include <vector>

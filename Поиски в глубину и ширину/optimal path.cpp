@@ -15,6 +15,32 @@
 Необходимо вывести путь (номера всех вершин в правильном порядке). Если пути 
 нет, нужно вывести -1.
 
+Входные данные:
+1)
+5
+0 1 0 0 1
+1 0 1 0 0
+0 1 0 0 0
+0 0 0 0 0
+1 0 0 0 0
+3 5
+
+2)
+5
+0 1 0 0 1
+1 0 1 0 0
+0 1 0 0 0
+0 0 0 0 0
+1 0 0 0 0
+4 5
+
+Выходные данные:
+1)
+3
+3 2 1 5
+
+2) 1
+
 ENG
 Condition:
 Given an undirected graph.
@@ -32,7 +58,33 @@ Output:
 It is necessary to derive the optimal path based on the number of transitions 
 (number transitions that need to be made), and then the path itself.
 It is necessary to print the path (the numbers of all vertices in the correct 
-order). If the path no, you need to output -1.*/
+order). If the path no, you need to output -1.
+
+Input data:
+1)
+5
+0 1 0 0 1
+1 0 1 0 0
+0 1 0 0 0
+0 0 0 0 0
+1 0 0 0 0
+3 5
+
+2)
+5
+0 1 0 0 1
+1 0 1 0 0
+0 1 0 0 0
+0 0 0 0 0
+1 0 0 0 0
+4 5
+
+Output:
+1)
+3
+3 2 1 5
+
+2) 1                  */
 
 #include <iostream>
 #include <vector>

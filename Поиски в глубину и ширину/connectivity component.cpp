@@ -15,6 +15,18 @@
 компоненте связности выведите размер компонента связности, а затем и сам 
 компонент связности.
 
+Входные данные:
+4
+0 1 1 0
+1 0 0 0
+1 0 0 0
+0 0 0 0
+
+Выходные данные:
+2
+3 1 2 3
+1 4
+
 ENG
 Condition:
 Given an undirected unweighted graph.
@@ -30,7 +42,19 @@ Output:
 In the first line of the output file, print the number of connected components.
 Further in each new line in ascending order of the smallest vertex in
 connected component, output the size of the connected component, and then 
-print the size of the connected component connectivity component.*/
+print the size of the connected component connectivity component.
+
+Input data:
+4
+0 1 1 0
+1 0 0 0
+1 0 0 0
+0 0 0 0
+
+Output:
+2
+3 1 2 3
+1 4                                    */
 
 #include <iostream>
 #include <vector>

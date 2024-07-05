@@ -41,6 +41,27 @@
 В выходной файл должно быть выведено слово "Yes", если пройти из левого 
 верхнего угла в правый нижний можно, и "No" в противном случае.
 
+Входные данные:
+1)
+5
+2 2 14 10 2
+3 1 3 3 3
+5 12 9 5 11
+6 12 10 6 9
+5 8 5 9 8
+
+2)
+5
+2 6 12 10 2
+3 3 2 5 11
+3 3 7 12 9
+5 9 5 12 10
+4 12 12 12 9
+
+Выходные данные:
+1) No
+2) Yes
+
 ENG
 Condition:
 The schooner Hispaniola ended up in the hands of pirates. Jim wants to capture 
@@ -84,7 +105,28 @@ description of the plan cells.
 
 Output:
 The output file should contain the word "Yes" if passed from the left
-top corner to bottom right is possible, and "No" otherwise.*/
+top corner to bottom right is possible, and "No" otherwise.
+
+Input data:
+1)
+5
+2 2 14 10 2
+3 1 3 3 3
+5 12 9 5 11
+6 12 10 6 9
+5 8 5 9 8
+
+2)
+5
+2 6 12 10 2
+3 3 2 5 11
+3 3 7 12 9
+5 9 5 12 10
+4 12 12 12 9
+
+Output:
+1) No
+2) Yes                                      */
 
 #include <iostream>
 #include <vector>
