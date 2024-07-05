@@ -11,6 +11,21 @@
 Выходные данные:
 Выведите n строк по m чисел – значения матрицы.
 
+Входные данные:
+5 5
+1 2 3 4 5
+6 7 8 9 10
+11 12 13 14 15
+16 17 18 19 20
+21 22 23 24 25
+
+Выходные данные:
+1 2 3 4 5
+6 7 8 9 10
+11 12 13 14 15
+16 17 18 19 20
+21 22 23 24 25
+
 ENG
 Condition:
 Input and output matrix.
@@ -22,7 +37,22 @@ The next n lines contain m numbers - cell values
 matrices (1 ≤matrixi,j ≤109).
 
 Output:
-Print n lines of m numbers - the values ​​of the matrix.*/
+Print n lines of m numbers - the values ​​of the matrix.
+
+Input data:
+5 5
+1 2 3 4 5
+6 7 8 9 10
+11 12 13 14 15
+16 17 18 19 20
+21 22 23 24 25
+
+Output:
+1 2 3 4 5
+6 7 8 9 10
+11 12 13 14 15
+16 17 18 19 20
+21 22 23 24 25                      */
 
 #include <iostream>
 using namespace std;

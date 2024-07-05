@@ -9,6 +9,22 @@
 Выходные данные:
 Выведите наименьший элемент матрицы.
 
+Входные данные:
+1)
+3 3
+1 2 3
+4 5 6
+7 8 9
+
+2)
+1 1
+-1
+
+Выходные данные:
+1)1
+
+2)-1
+
 ENG
 Condition:
 Given a matrix. Find its smallest element.
@@ -18,7 +34,23 @@ The input is given two natural numbers n and m (n ≤ 1000, m ≤ 100).
  Next, n lines contain m integers each - the elements of the matrix.
 
 Output:
-Print the smallest element of the matrix.*/
+Print the smallest element of the matrix.
+
+Input data:
+1)
+3 3
+1 2 3
+4 5 6
+7 8 9
+
+2)
+1 1
+-1
+
+Output:
+1)1
+
+2)-1                                         */
 
 #include <iostream>
 using namespace std;

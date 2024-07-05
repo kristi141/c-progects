@@ -11,6 +11,15 @@
 Выходные данные:
 Выведите единицу, если матрица транзитивна, и ноль, если нет.
 
+Входные данные:
+3
+0 1 1
+0 0 1
+0 0 0
+
+Выходные данные:
+1
+
 ENG
 Condition:
 Given a binary matrix. Check it for transitivity.
@@ -22,7 +31,16 @@ The input is a natural number n – the size of the matrix (n ≤ 1000).
 Next, n lines contain m integers each - the elements of the matrix.
 
 Output:
-Print one if the matrix is ​​transitive, and zero if not.*/
+Print one if the matrix is ​​transitive, and zero if not.
+
+Input data:
+3
+0 1 1
+0 0 1
+0 0 0
+
+Output:
+1                                        */
 
 #include <iostream>
 using namespace std;

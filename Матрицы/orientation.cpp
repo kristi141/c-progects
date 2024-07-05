@@ -16,6 +16,24 @@ j равно значению в ячейке Aj, i. Если данное ус�
 В выходной файл необходимо вывести «YES» (без кавычек), если матрица 
 является ориентированной, и «NO» (без кавычек) в противном случае.
 
+Входные данные:
+1)
+3
+1 1 0
+1 0 0
+0 0 1
+
+2)
+4
+0 1 1 0
+1 0 0 0
+1 0 1 0
+1 0 0 1
+
+Выходные данные:
+1)NO
+2)YES
+
 ENG
 Condition:
 Given a matrix A of size N * N, each cell of which contains either 0,
@@ -32,7 +50,25 @@ Next, N lines contain N numbers each - the values ​​of the matrix cells.
 
 Output:
 “YES” (without quotes) must be output to the output file if the matrix
-is oriented, and "NO" (without quotes) otherwise.*/
+is oriented, and "NO" (without quotes) otherwise.
+
+Input data:
+1)
+3
+1 1 0
+1 0 0
+0 0 1
+
+2)
+4
+0 1 1 0
+1 0 0 0
+1 0 1 0
+1 0 0 1
+
+Output:
+1)NO
+2)YES                                       */
 
 #include <iostream>
 using namespace std;

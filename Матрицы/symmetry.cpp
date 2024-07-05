@@ -13,6 +13,32 @@
 Выведите “Yes”, если матрица обладает вертикальной (a[i][j] = a[n-i][j]) или 
 горизонтальной (a[i][j] = a[i][m-j]) симметричностью, иначе – выведите “No”.
 
+Входные данные:
+1)
+3 3
+2 3 4
+1 1 1
+2 3 4
+
+2)
+3 3
+2 1 2
+3 1 3
+4 1 4
+
+3)
+3 3
+1 2 3
+4 5 6
+7 8 9
+
+Выходные данные:
+1)Yes
+
+2)Yes
+
+3)No
+
 ENG
 Condition:
 An integer matrix is ​​given. Check if it has vertical or
@@ -26,7 +52,33 @@ matrices (1 ≤matrixi,j ≤109).
 
 Output:
 Print “Yes” if the matrix is ​​vertical (a[i][j] = a[n-i][j]) or
-horizontal (a[i][j] = a[i][m-j]) symmetry, otherwise print “No”.*/
+horizontal (a[i][j] = a[i][m-j]) symmetry, otherwise print “No”.
+
+Input data:
+1)
+3 3
+2 3 4
+1 1 1
+2 3 4
+
+2)
+3 3
+2 1 2
+3 1 3
+4 1 4
+
+3)
+3 3
+1 2 3
+4 5 6
+7 8 9
+
+Output:
+1)Yes
+
+2)Yes
+
+3)No                      */
 
 #include <iostream>
 using namespace std;

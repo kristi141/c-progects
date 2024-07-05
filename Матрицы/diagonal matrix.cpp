@@ -10,6 +10,14 @@
 Выведите матрицу заполнив её начиная с левого верхнего угла, параллельно 
 побочной диагонали числами с 1 по n*n.
 
+Входные данные:
+3
+
+Выходные данные:
+1 3 6
+2 5 8
+4 7 9
+
 ENG
 Condition:
 The given number is the size of the square matrix. Walk around the matrix 
@@ -20,7 +28,15 @@ The input is a natural number n – the size of the matrix (n ≤ 100).
 
 Output:
 Output the matrix by filling it starting from the upper left corner, parallel
-side diagonal with numbers from 1 to n*n.*/
+side diagonal with numbers from 1 to n*n.
+
+Input data:
+3
+
+Output:
+1 3 6
+2 5 8
+4 7 9                                       */
 
 #include <iostream>
 using namespace std;
