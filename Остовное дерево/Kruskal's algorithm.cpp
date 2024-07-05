@@ -23,6 +23,24 @@ n-1 ребро.
 Начиная со следующей строки необходимо вывести матрицу смежности минимального 
 остова.
 
+Входные данные:
+4 8
+1 2 723
+2 1 723
+2 3 137
+2 4 470
+3 2 137
+3 4 69
+4 2 470
+4 3 69
+
+Выходные данные:
+929
+0 723 0 0
+723 0 137 0
+0 137 0 69
+0 0 69 0
+
 ENG
 Condition:
 Given a weighted undirected graph with n vertices.
@@ -46,7 +64,25 @@ Output:
 The first line of the input file should contain a single value -
 length of the minimum spanning tree.
 Starting from the next line, you need to print the adjacency matrix of the minimum
-skeleton*/
+skeleton
+
+Input data:
+4 8
+1 2 723
+2 1 723
+2 3 137
+2 4 470
+3 2 137
+3 4 69
+4 2 470
+4 3 69
+
+Output:
+929
+0 723 0 0
+723 0 137 0
+0 137 0 69
+0 0 69 0                              */
 
 #include <iostream>
 #include <vector>

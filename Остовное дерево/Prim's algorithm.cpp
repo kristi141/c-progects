@@ -21,6 +21,26 @@
 Начиная со следующей строки необходимо вывести матрицу смежности минимального 
 остова.
 
+Входные данные:
+7
+0 0 13 19 0 0 0
+0 0 20 4 15 0 0
+13 20 0 0 0 0 0
+19 4 0 0 0 0 17
+0 15 0 0 0 22 8
+0 0 0 0 22 0 10
+0 0 0 17 8 10 0
+
+Выходные данные:
+69
+0 0 13 19 0 0 0
+0 0 0 4 15 0 0
+13 0 0 0 0 0 0
+19 4 0 0 0 0 0
+0 15 0 0 0 0 8
+0 0 0 0 0 0 10
+0 0 0 0 8 10 0
+
 ENG
 Condition:
 Given a weighted undirected graph with n vertices.
@@ -42,7 +62,27 @@ Output:
 The first line of the input file should contain a single value -
 length of the minimum spanning tree.
 Starting from the next line, you need to print the adjacency matrix of the minimum
-skeleton*/
+skeleton
+
+Input data:
+7
+0 0 13 19 0 0 0
+0 0 20 4 15 0 0
+13 20 0 0 0 0 0
+19 4 0 0 0 0 17
+0 15 0 0 0 22 8
+0 0 0 0 22 0 10
+0 0 0 17 8 10 0
+
+Output:
+69
+0 0 13 19 0 0 0
+0 0 0 4 15 0 0
+13 0 0 0 0 0 0
+19 4 0 0 0 0 0
+0 15 0 0 0 0 8
+0 0 0 0 0 0 10
+0 0 0 0 8 10 0                              */
 
 #include <iostream>
 #include <vector>
