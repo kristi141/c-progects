@@ -8,12 +8,12 @@
 
 Выходные данные:
 В выходной файл должно быть выведено единственное значение – 
-квадрат данного числа.
+квадрат данного числа. (5)
 
 ENG
 Condition:
 A number is given.
-You need to find the square of a given number.
+You need to find the square of a given number.(25)
 
 Input data:
 The number itself is given as input.

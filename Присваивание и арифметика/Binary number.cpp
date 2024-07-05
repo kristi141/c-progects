@@ -10,6 +10,12 @@
 В выходной файл должно быть выведено единственное значение - 
 двоичная запись заданного числа n.
 
+Входные данные:
+16
+
+Выходные данные:
+10000
+
 ENG
 Condition:
 A number is given.
@@ -20,7 +26,13 @@ The input is an integer n (n < 17).
 
 Output:
 A single value should be output to the output file -
-binary representation of a given number n.*/
+binary representation of a given number n.
+
+Input data:
+16
+
+Output:
+10000                                 */
 
 #include <iostream>
 using namespace std;

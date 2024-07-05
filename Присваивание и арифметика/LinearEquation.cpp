@@ -11,6 +11,12 @@
 Если корней нет, выведите “NO SOLUTION”. 
 Если корней бесконечно много, выведите “R”.
 
+Входные данные:
+2 -4
+
+Выходные данные:
+2
+
 ENG
 Condition:
 Two numbers are given - the coefficients of the equation ax + b = 0.
@@ -22,7 +28,13 @@ The input is given two integers a and b - the coefficients of the equation ax + 
 Output:
 The root of this equation should be output to the output file.
 If there are no roots, print “NO SOLUTION”.
-If there are infinitely many roots, print “R”.*/
+If there are infinitely many roots, print “R”.
+
+Input data:
+2 -4
+
+Output:
+2                                            */
 
 #include <iostream>
 using namespace std;

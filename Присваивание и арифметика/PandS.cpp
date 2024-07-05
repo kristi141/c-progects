@@ -1,6 +1,10 @@
 //нахождение периметра и площади
 //finding perimeter and area
 
+//5
+
+// 20 25
+
 #include <iostream>
 using namespace std;
 
