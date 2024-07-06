@@ -10,6 +10,12 @@
 В выходной файл должно быть выведено единственное значение - 
 среднее по величине число.
 
+Входные данные:
+9 105 37
+
+Выходные данные:
+37
+
 ENG
 Condition:
 Three numbers are given.
@@ -20,7 +26,13 @@ The input is given three different natural numbers, modulo not exceeding 10^6.
 
 Output:
 A single value should be output to the output file -
-average number.*/
+average number.
+
+Input data:
+9 105 37
+
+Output:
+37                                        */
 
 #include <iostream>
 using namespace std;

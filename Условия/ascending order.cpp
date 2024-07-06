@@ -10,6 +10,12 @@
 В выходной файл должны быть выведены эти числа, 
 расположенные в порядке возрастания.
 
+Входные данные:
+9 105 37
+
+Выходные данные:
+9 37 105
+
 ENG
 Condition:
 Three numbers are given.
@@ -20,7 +26,13 @@ The input is given three different natural numbers, not exceeding modulo 10^6.
 
 Output:
 These numbers should be output to the output file,
-arranged in ascending order.*/
+arranged in ascending order.
+
+Input data:
+9 105 37
+
+Output:
+9 37 105                                                     */
 
 #include <iostream>
 using namespace std;

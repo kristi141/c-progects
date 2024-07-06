@@ -10,6 +10,12 @@
 В выходной файл должна быть выведена единица,
 если только одно из них нечётное, и ноль в остальных случаях.
 
+Входные данные:
+21 20
+
+Выходные данные:
+1
+
 ENG
 Condition:
 Given two numbers, one of which is even and the other is odd.
@@ -19,7 +25,13 @@ Input data:
 Two natural numbers are given as input.
 
 Output:
-The output file should contain a single value - an odd number.*/
+The output file should contain a single value - an odd number.
+
+Input data:
+21 20
+
+Output:
+1                                                   */
 
 #include <iostream>
 using namespace std;

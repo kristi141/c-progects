@@ -13,6 +13,20 @@ a,b,c решит это уравнение.
 этого уравнения, после этого все корни этого уравнения в порядке неубывания, 
 если этого сделать нельзя, то вывести -1.
 
+Входные данные:
+1)
+1 -2 1
+
+2)
+1 -8 15
+
+Выходные данные:
+1)
+1 1
+
+2)
+2 3 5
+
 ENG
 Condition:
 Given the equation:
@@ -26,7 +40,21 @@ Three integers are given as input - a, b, c, modulo not exceeding 1000.
 Output:
 The number of roots must be printed in the output file separated by spaces.
 this equation, after that all the roots of this equation in non-decreasing order,
-if this cannot be done, then output -1.*/
+if this cannot be done, then output -1.
+
+Input data:
+1)
+1 -2 1
+
+2)
+1 -8 15
+
+Output:
+1)
+1 1
+
+2)
+2 3 5                                                     */
 
 #include <iostream>
 #include <cmath>

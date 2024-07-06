@@ -10,6 +10,12 @@
 В выходной файл должна быть выведена единица, 
 если все цифры в числе различны, и ноль в противном случае.
 
+Входные данные:
+123
+
+Выходные данные:
+1
+
 ENG
 Condition:
 A three-digit number is given.
@@ -20,7 +26,13 @@ The input is a natural three-digit number.
 
 Output:
 One should be output to the output file,
-if all digits in a number are different, and zero otherwise.*/
+if all digits in a number are different, and zero otherwise.
+
+Input data:
+123
+
+Output:
+1                                       */
 
 #include<iostream>
 using namespace std;

@@ -12,6 +12,17 @@
 В выходной файл должна быть выведена единица,
 если число является палиндромом, и ноль, если нет.
 
+Входные данные:
+1)
+1221
+
+2)
+1234
+
+Выходные данные:
+1) 1
+2) 0
+
 ENG
 Condition:
 A four-digit number is given.
@@ -24,7 +35,18 @@ The input is a natural four-digit number.
 
 Output:
 One should be output to the output file,
-if the number is a palindrome, and zero if not.*/
+if the number is a palindrome, and zero if not.
+
+Input data:
+1)
+1221
+
+2)
+1234
+
+Output:
+1) 1
+2) 0                                               */
 
  #include <iostream>
 using namespace std;

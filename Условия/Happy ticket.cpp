@@ -10,10 +10,21 @@
 
 Выходные данные:
 В выходной файл должна быть выведена единица, если номер билета “счастливый”,
- и ноль, если нет.
+и ноль, если нет.
+
+Входные данные:
+1)
+000001
+
+2)
+953269
+
+Выходные данные:
+1) 0
+2) 1
  
- ENG
- Condition:
+ENG
+Condition:
 The ticket number is given.
 It is necessary to determine whether he is “happy”.
 Note: A “lucky” ticket is a ticket that has the first and

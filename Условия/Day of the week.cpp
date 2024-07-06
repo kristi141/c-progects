@@ -10,6 +10,12 @@
 Выходные данные:
 В выходной файл должно быть выведено соответствующее название дня недели.
 
+Входные данные:
+7
+
+Выходные данные:
+Sunday
+
 ENG
 Condition:
 A number is given.
@@ -20,7 +26,13 @@ Input data:
 The input is a natural number not exceeding modulo 7.
 
 Output:
-The output file should contain the corresponding name of the day of the week.*/
+The output file should contain the corresponding name of the day of the week.
+
+Input data:
+7
+
+Output:
+Sunday                                                        */
 
 #include<iostream>
 using namespace std;

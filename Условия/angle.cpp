@@ -12,6 +12,17 @@
 В выходной файл необходимо вывести единственное значение – 
 угол между часовой и минутной стрелкой, выраженный в градусах.
 
+Входные данные:
+1)
+6 0
+
+2)
+12 0
+
+Выходные данные:
+1) 180
+2) 0
+
 ENG
 Condition:
 Required at a given time (hours and minutes in twelve-hour format)
@@ -24,7 +35,18 @@ Two numbers are given as input: hours H and minutes M (1 ≤ H ≤ 12, 0 ≤ M �
 
 Output:
 The only value you need to output to the output file is:
-the angle between the hour and minute hands, expressed in degrees.*/
+the angle between the hour and minute hands, expressed in degrees.
+
+Input data:
+1)
+6 0
+
+2)
+12 0
+
+Output:
+1) 180
+2) 0                                           */
 
 #include <iostream>
 #include <math.h>

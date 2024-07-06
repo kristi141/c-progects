@@ -9,6 +9,12 @@
 Выходные данные:
 В выходной файл должно быть выведено единственное значение - нечётное число.
 
+Входные данные:
+6 7
+
+Выходные данные:
+7
+
 ENG
 Condition:
 Given two numbers, one of which is even and the other is odd.
@@ -18,7 +24,13 @@ Input data:
 Two natural numbers are given as input.
 
 Output:
-The output file should contain a single value - an odd number.*/
+The output file should contain a single value - an odd number.
+
+Input data:
+6 7
+
+Output:
+7                                    */
 
 #include<iostream>
 using namespace std;
