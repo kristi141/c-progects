@@ -9,6 +9,14 @@
 Выходные данные:
 В выходной файл должно быть выведено соответствующее число.
 
+Входные данные:
+1)-12345
+2)54321
+
+Выходные данные:
+1)-12345
+2)54321
+
 ENG
 Condition:
 Given a set of numbers. Treat it as a string and convert it to a number.
@@ -18,7 +26,15 @@ Input data:
 The input is a set of digits corresponding to an integer.
 
 Output:
-The corresponding number should be output to the output file.*/
+The corresponding number should be output to the output file.
+
+Input data:
+1)-12345
+2)54321
+
+Output:
+1)-12345
+2)54321                                                  */
 
 #include <iostream>
 using namespace std;

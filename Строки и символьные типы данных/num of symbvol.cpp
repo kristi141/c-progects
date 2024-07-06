@@ -10,6 +10,14 @@ ASCII таблица – таблица, в которой некоторым р
 Выходные данные:
 Необходимо вывести единственное число – номер символа в ASCII.
 
+Входные данные:
+A
+z
+
+Выходные данные:
+65
+122
+
 ENG
 Condition:
 Given the symbol. It is necessary to display its number in ASCII
@@ -20,7 +28,15 @@ Input data:
 One character is given per input.
 
 Output:
-It is necessary to output a single number - the character number in ASCII.*/
+It is necessary to output a single number - the character number in ASCII.
+
+Input data:
+A
+z
+
+Output:
+65
+122                                                       */
 
 #include <iostream>
 using namespace std;

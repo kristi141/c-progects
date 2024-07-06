@@ -9,6 +9,12 @@
 Выходные данные:
 В выходной файл должно быть выведено соответствующее число.
 
+Входные данные:
+54321
+
+Выходные данные:
+54321
+
 ENG
 Condition:
 Given a set of numbers. Treat it as a string and convert it to a number.
@@ -18,7 +24,13 @@ Input data:
 The input is given a set of digits corresponding to the number.
 
 Output:
-The corresponding number should be output to the output file.*/
+The corresponding number should be output to the output file.
+
+Input data:
+54321
+
+Output:
+54321                                                        */
 
 #include <iostream>
 #include <string>

@@ -10,6 +10,16 @@ ASCII таблица – таблица, в которой некоторым р
 Выходные данные:
 В выходной файл должен быть выведен соответствующий символ.
 
+Входные данные:
+1)35
+
+2)48
+
+Выходные данные:
+1)#
+
+2)0
+
 ENG
 Condition:
 A number is given. Print the character corresponding to the given number in the ASCII table.
@@ -20,7 +30,17 @@ Input data:
 The input is a natural number a (32 < a < 256)
 
 Output:
-The corresponding symbol must be output to the output file.*/
+The corresponding symbol must be output to the output file.
+
+Input data:
+1)35
+
+2)48
+
+Output:
+1)#
+
+2)0                                                              */
 
 #include <iostream>
 using namespace std;
