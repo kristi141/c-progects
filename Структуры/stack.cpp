@@ -13,6 +13,17 @@
 Выведите 1, если скобочная последовательность является правильной, и 0 в 
 противном случае.
 
+Входные данные:
+1)
+)(
+
+2)
+[]{}()
+
+Выходные данные:
+1) 0
+2) 1
+
 ENG
 Condition:
 Given a string consisting of various types of brackets (round, square,
@@ -25,8 +36,18 @@ Input data:
 The input is a string containing a sequence of parentheses.
 
 Output:
-Print 1 if the bracket sequence is correct, and 0 if
-otherwise.*/
+Print 1 if the bracket sequence is correct, and 0 if otherwise.
+
+Input data:
+1)
+)(
+
+2)
+[]{}()
+
+Output:
+1) 0
+2) 1                                                   */
 
 #include <iostream>
 #include <string>

@@ -14,6 +14,17 @@
 В выходной файл должно быть выведено единственное значение - искомое 
 количество остановок. 
 
+Входные данные:
+1)
+3 6 4 2
+
+2)
+3 1 5 10
+
+Выходные данные:
+1) 2 
+2) 0
+
 ENG
 Condition:
 To relieve congestion, it was decided to launch two new buses on Novy Prospekt.
@@ -28,7 +39,18 @@ stops first of the first, then of the second bus. The numbers do not exceed 109.
 
 Output:
 The output file should contain a single value - the desired one
-number of stops.*/
+number of stops.
+
+Input data:
+1)
+3 6 4 2
+
+2)
+3 1 5 10
+
+Output:
+1) 2 
+2) 0                                                          */
 
 #include <iostream>
 using namespace std;

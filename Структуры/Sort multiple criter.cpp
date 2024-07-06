@@ -24,6 +24,17 @@
 В выходной файл должны быть выведены n чисел — номера команд в отсортированном 
 порядке
 
+Входные данные:
+5 
+3 50 
+5 720 
+1 7 
+0 0 
+8 500 
+
+Выходные данные:
+5 2 1 3 4 
+
 ENG
 Condition:
 The young programmer wrote his first testing system. He was so happy
@@ -48,7 +59,18 @@ commands numbered i.
 
 Output:
 The output file should contain n numbers - the numbers of commands in the 
-sorted ok*/
+sorted ok
+
+Input data:
+5 
+3 50 
+5 720 
+1 7 
+0 0 
+8 500 
+
+Output:
+5 2 1 3 4                                         */
 
 #include <iostream>
 #include <vector>
