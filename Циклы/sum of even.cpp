@@ -11,6 +11,16 @@
 В выходной файл необходимо вывести единственное значение - 
 сумму чётных элементов данной последовательности.
 
+Входные данные:
+5 1 2 3 4 5
+
+1 1
+
+Выходные данные:
+6
+
+0
+
 ENG
 Condition:
 Given a sequence of numbers.
@@ -22,7 +32,17 @@ sequence, and then n natural numbers - elements of the sequence.
 
 Output:
 The only value you need to output to the output file is -
-the sum of the even elements of a given sequence.*/
+the sum of the even elements of a given sequence.
+
+Input data:
+5 1 2 3 4 5
+
+1 1
+
+Output:
+6
+
+0               */
 
 #include <iostream>
 using namespace std;

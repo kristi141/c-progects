@@ -13,6 +13,12 @@
 В выходной файл необходимо вывести единственное значение - 
 наименьшее общее кратное чисел a и b.
 
+Входные данные:
+6 8
+
+Выходные данные:
+24
+
 ENG
 Condition:
 Given two natural numbers a and b.
@@ -26,7 +32,13 @@ The first line of the input file contains two natural numbers a and b
 
 Output:
 The only value you need to output to the output file is -
-the least common multiple of a and b.*/
+the least common multiple of a and b.
+
+Input data:
+6 8
+
+Output:
+24                                                  */
 
 #include <iostream>
 using namespace std;

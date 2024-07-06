@@ -12,6 +12,13 @@
 Во второй строке выходного файла необходимо вывести через пробел цифры 
 числа n в обратном порядке.
 
+Входные данные:
+20718
+
+Выходные данные:
+2 0 7 1 8
+8 1 7 0 2
+
 ENG
 Condition:
 Given a natural number n.
@@ -24,7 +31,14 @@ Output:
 In the first line of the output file you need to print the numbers separated 
 by spaces numbers n in direct order.
 In the second line of the output file you need to print the numbers separated 
-by spaces numbers n in reverse order.*/
+by spaces numbers n in reverse order.
+
+Input data:
+20718
+
+Output:
+2 0 7 1 8
+8 1 7 0 2                                                   */
 
 #include<iostream>
 using namespace std;

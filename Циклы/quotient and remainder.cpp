@@ -11,6 +11,12 @@
 В выходной файл необходимо вывести через пробел два числа - 
 частное от деления первого на второе, а затем остаток.
 
+Входные данные:
+4 2
+
+Выходные данные:
+2 0
+
 ENG
 Condition:
 Two numbers are given.
@@ -22,7 +28,13 @@ Two natural numbers are given as input.
 
 Output:
 You need to output two numbers separated by spaces into the output file -
-the quotient of the first divided by the second, and then the remainder.*/
+the quotient of the first divided by the second, and then the remainder.
+
+Input data:
+4 2
+
+Output:
+2 0                                                    */
 
 #include <iostream>
 using namespace std;

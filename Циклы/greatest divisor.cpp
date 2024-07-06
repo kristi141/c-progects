@@ -11,6 +11,12 @@
 В выходной файл необходимо вывести единственное значение -  
 наибольший делитель числа n.
 
+Входные данные:
+100
+
+Выходные данные:
+50
+
 ENG
 Condition:
 Given a natural number n.
@@ -21,8 +27,14 @@ Input data:
 The first line of the input file contains the natural number n (1 ≤ n ≤ 109).
 
 Output:
-The only value you need to output to the output file is -
-greatest divisor of n.*/
+The only value you need to output to the output file is - greatest divisor 
+of n.
+
+Input data:
+100
+
+Output:
+50                                                       */
 
 #include<iostream>
 using namespace std;

@@ -10,6 +10,12 @@
 В выходной файл необходимо вывести единственное значение – 
 количество делителей числа n (включая 1 и n).
 
+Входные данные:
+12
+
+Выходные данные:
+6
+
 ENG
 Condition:
 Given a natural number n.
@@ -20,7 +26,13 @@ The first line of the input file contains the natural number n (1 ≤ n �
 
 Output:
 The only value you need to output to the output file is:
-the number of divisors of n (including 1 and n).*/
+the number of divisors of n (including 1 and n).
+
+Input data:
+12
+
+Output:
+6                                                   */
 
 #include<iostream>
 using namespace std;

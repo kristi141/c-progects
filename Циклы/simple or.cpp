@@ -11,6 +11,12 @@
 В выходной файл необходимо вывести «Yes», если число n является простым, 
 и «No» в противном случае.
 
+Входные данные:
+12
+
+Выходные данные:
+No
+
 ENG
 Condition:
 Given a natural number n.
@@ -20,9 +26,14 @@ Input data:
 The first line of the input file contains the natural number n (1 ≤ n ≤ 109).
 
 Output:
-
 “Yes” should be output to the output file if the number n is prime,
-and "No" otherwise.*/
+and "No" otherwise.
+
+Input data:
+12
+
+Output:
+No                                                     */
 
 #include<iostream>
 using namespace std;

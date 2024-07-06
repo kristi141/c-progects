@@ -15,6 +15,20 @@
 прямой, в которых будут располагаться концы меньших отрезков при замощении 
 большего.
 
+Входные данные:
+1)
+0 10 2
+
+2)
+1 7 3
+
+Выходные данные:
+1)
+0 2 4 6 8 10
+
+2)
+1 4 7
+
 ENG
 Condition:
 Given two segments such that the length of the first is greater than the l
@@ -32,7 +46,21 @@ the first segment
 Output:
 In the output file you must output all numeric coordinates separated by spaces.
 straight line, in which the ends of smaller segments will be located when 
-tiling more.*/
+tiling more.
+
+Input data:
+1)
+0 10 2
+
+2)
+1 7 3
+
+Output:
+1)
+0 2 4 6 8 10
+
+2)
+1 4 7                                                 */
 
 #include <iostream>
 using namespace std;

@@ -11,6 +11,12 @@
 В выходной файл необходимо вывести единственное значение -  
 факториал числа n.
 
+Входные данные:
+5
+
+Выходные данные:
+120
+
 ENG
 Condition:
 Given a natural number n.
@@ -21,8 +27,13 @@ Input data:
 The first line of the input file contains a natural number n (1 ≤ n ≤ 12).
 
 Output:
-The only value you need to output to the output file is -
-factorial of n.*/
+The only value you need to output to the output file is - factorial of n.
+
+Input data:
+5
+
+Output:
+120                                                            */
 
 #include<iostream>
 using namespace std;

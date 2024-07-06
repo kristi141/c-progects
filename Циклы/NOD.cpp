@@ -13,6 +13,12 @@
 В выходной файл необходимо вывести единственное значение - 
 наибольший общий делитель чисел a и b.
 
+Входные данные:
+32 24
+
+Выходные данные:
+8
+
 ENG
 Condition:
 Given two natural numbers a and b.
@@ -26,7 +32,13 @@ The first line of the input file contains two natural numbers a and b
 
 Output:
 The only value you need to output to the output file is -
-greatest common divisor of numbers a and b.*/
+greatest common divisor of numbers a and b.
+
+Input data:
+32 24
+
+Output:
+8                                                 */
 
 #include<iostream>
 using namespace std;

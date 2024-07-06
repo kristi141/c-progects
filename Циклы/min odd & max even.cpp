@@ -15,6 +15,19 @@
 Если какого-то из этих элементов не существует в данной последовательности, 
 выведите "-1" вместо этого элемента.
 
+Входные данные:
+1)
+5
+1 2 3 4 5
+
+2)
+3
+1 1 1
+
+Выходные данные:
+1) 1 4
+2) -1
+
 ENG
 Condition:
 Given a sequence of numbers.
@@ -30,7 +43,20 @@ Output:
 You need to output two numbers to the output file: the minimum odd number and
 maximum even elements of the sequence.
 If any of these elements does not exist in this sequence,
-print "-1" instead of this element.*/
+print "-1" instead of this element.
+
+Input data:
+1)
+5
+1 2 3 4 5
+
+2)
+3
+1 1 1
+
+Output:
+1) 1 4
+2) -1                                                   */
 
 #include <iostream>
 using namespace std;

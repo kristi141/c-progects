@@ -10,6 +10,12 @@
 Выходные данные:
 В входной файл необходимо вывести единственное значение - НОД данных чисел.
 
+Входные данные:
+32 24
+
+Выходные данные:
+8
+
 ENG
 Condition:
 Two numbers are given. It is necessary to calculate the gcd of these numbers 
@@ -21,7 +27,13 @@ The input is given two natural numbers a, b (a, b ≤ 109).
 
 Output:
 The only value that needs to be output to the input file is the gcd of 
-these numbers.*/
+these numbers.
+
+Input data:
+32 24
+
+Output:
+8                                         */
 
 #include <iostream>
 using namespace std;

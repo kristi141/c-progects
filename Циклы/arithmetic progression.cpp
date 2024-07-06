@@ -11,6 +11,16 @@
 В выходной файл необходимо вывести "1", если последовательность 
 является арифметической прогрессией, и "0", если нет.
 
+Входные данные:
+5 1 2 3 4 5
+
+3 1 2 5
+
+Выходные данные:
+1
+
+0
+
 ENG
 Condition:
 Given a sequence of integers. It is necessary to determine
@@ -22,7 +32,17 @@ Next come n integers - elements of the sequence.
 
 Output:
 It is necessary to output "1" to the output file if the sequence
-is an arithmetic progression, and "0" if not.*/
+is an arithmetic progression, and "0" if not.
+
+Input data:
+5 1 2 3 4 5
+
+3 1 2 5
+
+Output:
+1
+
+0                                                          */
 
 #include <iostream>
 using namespace std;

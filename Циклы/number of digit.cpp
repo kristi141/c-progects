@@ -9,6 +9,12 @@
 В выходной файл необходимо вывести единственное значение - 
 количество разрядов числа n.
 
+Входные данные:
+123
+
+Выходные данные:
+3
+
 ENG
 Condition:
 A number is given. It is necessary to determine the number of digits of 
@@ -18,8 +24,14 @@ Input data:
 The input is a natural number n (n ≤ 109).
 
 Output:
-The only value you need to output to the output file is -
-number of digits of number n.*/
+The only value you need to output to the output file is - number of digits 
+of number n.
+
+Input data:
+123
+
+Output:
+3                                                               */
 
 #include <iostream>
 using namespace std;

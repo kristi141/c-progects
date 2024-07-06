@@ -10,6 +10,12 @@
 В выходной файл необходимо вывести через пробел все натуральные числа 
 от 1 до n.
 
+Входные данные:
+10
+
+Выходные данные:
+1 2 3 4 5 6 7 8 9 10
+
 ENG
 Condition:
 Given a natural number n.
@@ -20,7 +26,13 @@ The first line of the input file contains the natural number n (1 ≤ n �
 
 Output:
 All natural numbers must be printed in the output file, separated by spaces.
-from 1 to n.*/
+from 1 to n.
+
+Input data:
+10
+
+Output:
+1 2 3 4 5 6 7 8 9 10                                    */
 
 #include<iostream>
 using namespace std;

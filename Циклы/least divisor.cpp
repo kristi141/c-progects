@@ -11,6 +11,12 @@
 В выходной файл необходимо вывести единственное значение – 
 наименьший делитель числа n.
 
+Входные данные:
+100
+
+Выходные данные:
+2
+
 ENG
 Condition:
 Given a natural number n.
@@ -22,7 +28,13 @@ The first line of the input file contains the natural number n (1 ≤ n �
 
 Output:
 The only value you need to output to the output file is:
-the smallest divisor of n.*/
+the smallest divisor of n.
+
+Input data:
+100
+
+Output:
+2                                                          */
 
 #include<iostream>
 using namespace std;
