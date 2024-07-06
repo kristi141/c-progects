@@ -11,6 +11,12 @@
 Выходные данные:
 В выходной файл должен быть выведен список чисел.
 
+Входные данные:
+7 9 1 2 3
+
+Выходные данные:
+7 9 1 2 3
+
 ENG
 Condition:
 Given a sequence of numbers.
@@ -22,7 +28,13 @@ Input data:
 The input is a sequence of numbers.
 
 Output:
-The output file should contain a list of numbers.*/
+The output file should contain a list of numbers.
+
+Input data:
+7 9 1 2 3
+
+Output:
+7 9 1 2 3                                         */
 
 #include <iostream>
 using namespace std;

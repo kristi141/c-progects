@@ -11,6 +11,12 @@
 Выходные данные:
 В выходной файл должен быть выведен список чисел.
 
+Входные данные:
+7 9 1 2 3 10 3
+
+Выходные данные:
+7 9 10 1 2 3
+
 EN
 Condition:
 Given a list of numbers and some value x.
@@ -22,7 +28,13 @@ The input file is given a list of numbers, then comes the element to be
 inserted and the number, where should it be inserted.
 
 Output:
-The output file should contain a list of numbers.*/
+The output file should contain a list of numbers.
+
+Input data:
+7 9 1 2 3 10 3
+
+Output:
+7 9 10 1 2 3                                         */
 
 #include <iostream>
 #include <vector>

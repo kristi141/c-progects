@@ -11,6 +11,12 @@
 Выходные данные:
 В выходной файл должен быть выведен двусвязный список чисел
 
+Входные данные:
+18 6 0 58 7 9 1 2 3
+
+Выходные данные:
+18 6 0 58 7 9 1 2 3
+
 ENG
 Condition:
 A sequence of numbers is given.
@@ -22,7 +28,13 @@ Input data:
 The input is a sequence of numbers.
 
 Output:
-The output file should contain a doubly linked list of numbers*/
+The output file should contain a doubly linked list of numbers
+
+Input data:
+18 6 0 58 7 9 1 2 3
+
+Output:
+18 6 0 58 7 9 1 2 3                              */
 
 #include <iostream>
 using namespace std;

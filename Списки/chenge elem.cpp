@@ -11,6 +11,12 @@
 Выходные данные:
 В выходной файл должен быть выведен список чисел.
 
+Входные данные:
+7 9 1 2 3 8 1 2
+
+Выходные данные:
+7 9 2 1 3 8
+
 ENG
 Condition:
 Given a list of numbers and some x and y values ​​from the given list.
@@ -22,7 +28,13 @@ The input file contains a list of numbers, and then the elements that need
 to be changed in some places.
 
 Output:
-The output file should contain a list of numbers.*/
+The output file should contain a list of numbers.
+
+Input data:
+7 9 1 2 3 8 1 2
+
+Output:
+7 9 2 1 3 8                                                       */
 
 #include <iostream>
 #include <vector>

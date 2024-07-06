@@ -11,6 +11,12 @@
 Выходные данные:
 В выходной файл должен быть выведен список чисел.
 
+Входные данные:
+7 9 1 2 3 8 9
+
+Выходные данные:
+7  1 2 3 8
+
 ENG
 Condition:
 Given a list of numbers and some value x.
@@ -22,7 +28,13 @@ The input file is given a list of numbers and then the element that needs
 to be removed from the list.
 
 Output:
-The output file should contain a list of numbers.*/
+The output file should contain a list of numbers.
+
+Input data:
+7 9 1 2 3 8 9
+
+Output:
+7  1 2 3 8                                    */
 
 #include <iostream>
 #include <iomanip>
